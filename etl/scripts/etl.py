@@ -49,15 +49,28 @@ def process_country_id(country_df):
 
 def process_concept(label_df):
     """
-    Processes the label data by converting all columns to lowercase,
-    renaming 'indicator_id' to 'concept' and 'indicator_label_en' to 'name',
-    adding a 'concept_type' column with a fixed value of 'measure',
-    and making all concept IDs lowercase and replacing '.' with '_'.
+    Processes the label data by:
+    1. Converting all columns to lowercase
+    2. Renaming 'indicator_id' to 'concept' and 'indicator_label_en' to 'name'
+    3. Adding a 'concept_type' column with a fixed value of 'measure'
+    4. Making all concept IDs lowercase and replacing '.' with '_'
+    5. Stripping leading and trailing whitespaces from all cells
     """
+    # Convert column names to lowercase
     label_df.columns = label_df.columns.str.lower()
+    
+    # Rename columns
     label_df.rename(columns={'indicator_id': 'concept', 'indicator_label_en': 'name'}, inplace=True)
+    
+    # Add concept_type column
     label_df['concept_type'] = 'measure'
+    
+    # Process concept IDs
     label_df['concept'] = label_df['concept'].str.lower().str.replace('.', '_')
+    
+    # Strip whitespaces from all cells
+    label_df = label_df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    
     return label_df
 
 def create_discrete_concepts():
