@@ -98,4 +98,6 @@ if __name__ == "__main__":
         filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
         save_dataframe(df, filename)
     
+    print(f"Processed and saved {len(processed_national)} indicator datasets.")
+    
     print("ETL process completed successfully.")
