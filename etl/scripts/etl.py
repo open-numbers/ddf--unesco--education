@@ -56,6 +56,18 @@ def process_concept(label_df):
     label_df['concept_type'] = 'measure'
     return label_df
 
+def create_discrete_concepts():
+    """
+    Creates a DataFrame for discrete concepts.
+    """
+    data = {
+        'concept': ['name', 'year', 'country'],
+        'name': ['Name', 'Year', 'Country'],
+        'concept_type': ['string', 'time', 'entity_domain'],
+        'domain': ['', '', '']
+    }
+    return pd.DataFrame(data)
+
 def save_dataframe(df, filename):
     """
     Saves a DataFrame to a CSV file in the output directory.
@@ -71,13 +83,15 @@ if __name__ == "__main__":
     # Process data
     processed_national = process_national_data(national_data_df)
     processed_country = process_country_id(country_df)
-    processed_concept = process_concept(label_df)
+    processed_concept_continuous = process_concept(label_df)
+    processed_concept_discrete = create_discrete_concepts()
     
     # Save processed country data
     save_dataframe(processed_country, "ddf--entities--country.csv")
     
     # Save processed concept data
-    save_dataframe(processed_concept, "ddf--concepts.csv")
+    save_dataframe(processed_concept_continuous, "ddf--concepts--continuous.csv")
+    save_dataframe(processed_concept_discrete, "ddf--concepts--discrete.csv")
     
     # Save processed national data (indicators)
     # for indicator_id, df in processed_national.items():
