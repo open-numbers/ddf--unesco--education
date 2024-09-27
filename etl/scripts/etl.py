@@ -80,8 +80,8 @@ if __name__ == "__main__":
     save_dataframe(processed_concept, "ddf--concepts.csv")
     
     # Save processed national data (indicators)
-    for indicator_id, df in processed_national.items():
-        filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
-        save_dataframe(df, filename)
+    # for indicator_id, df in processed_national.items():
+    #     filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
+    #     save_dataframe(df, filename)
     
     print("ETL process completed successfully.")
