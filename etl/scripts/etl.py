@@ -1,7 +1,9 @@
 import pandas as pd
 import zipfile
+import os
 
 ZIP_PATH = "../source/SDG.zip"
+OUTPUT_DIR = "../../"
 
 def extract_and_load_data():
     """
@@ -54,11 +56,32 @@ def process_concept(label_df):
     label_df['concept_type'] = 'measure'
     return label_df
 
+def save_dataframe(df, filename):
+    """
+    Saves a DataFrame to a CSV file in the output directory.
+    """
+    output_path = os.path.join(OUTPUT_DIR, filename)
+    df.to_csv(output_path, index=False)
+    print(f"Saved: {output_path}")
+
 if __name__ == "__main__":
+    # Extract and load data
     country_df, national_data_df, label_df = extract_and_load_data()
+    
+    # Process data
     processed_national = process_national_data(national_data_df)
     processed_country = process_country_id(country_df)
     processed_concept = process_concept(label_df)
-    print(list(processed_national.values())[0].head())
-    print(processed_country.head())
-    print(processed_concept.head())
+    
+    # Save processed country data
+    save_dataframe(processed_country, "ddf--entities--country.csv")
+    
+    # Save processed concept data
+    save_dataframe(processed_concept, "ddf--concepts.csv")
+    
+    # Save processed national data (indicators)
+    for indicator_id, df in processed_national.items():
+        filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
+        save_dataframe(df, filename)
+    
+    print("ETL process completed successfully.")
