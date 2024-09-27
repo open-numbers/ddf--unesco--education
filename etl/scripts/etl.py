@@ -1,20 +1,21 @@
 import pandas as pd
 import zipfile
 
+ZIP_PATH = "../source/SDG.zip"
+
 def extract_and_load_data():
     """
     Extracts the SDG_DATA_NATIONAL.csv file from the SDG.zip archive and loads it into a pandas DataFrame.
     """
-    zip_path = "../source/SDG.zip"
     csv_file = "SDG_DATA_NATIONAL.csv"
     
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+    with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
         with zip_ref.open(csv_file) as file:
             df = pd.read_csv(file)
 
     return df
 
-def process_data(df):
+def read_national_data(df):
     """
     Groups the DataFrame by 'indicator_id' and processes the data.
     For each indicator, extracts 'country_id', 'year', and 'value' columns,
@@ -31,5 +32,5 @@ def process_data(df):
 
 if __name__ == "__main__":
     df = extract_and_load_data()
-    processed = process_data(df)
+    processed = read_national_data(df)
     print(list(processed.values())[0].head())
