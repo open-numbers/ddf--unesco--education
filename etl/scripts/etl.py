@@ -103,6 +103,9 @@ if __name__ == "__main__":
     processed_concept_continuous = process_concept(label_df)
     processed_concept_discrete = create_discrete_concepts()
     
+    # Create a set of valid indicators from the label data
+    valid_indicators = set(processed_concept_continuous['concept'])
+    
     # Save processed country data
     save_dataframe(processed_country, "ddf--entities--country.csv")
     
@@ -111,10 +114,20 @@ if __name__ == "__main__":
     save_dataframe(processed_concept_discrete, "ddf--concepts--discrete.csv")
     
     # Save processed national data (indicators)
+    skipped_indicators = []
+    saved_indicators = []
     for indicator_id, df in processed_national.items():
-        filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
-        save_dataframe(df, filename)
+        if indicator_id in valid_indicators:
+            filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
+            save_dataframe(df, filename)
+            saved_indicators.append(indicator_id)
+        else:
+            skipped_indicators.append(indicator_id)
+            print(f"Skipped indicator not found in label data: {indicator_id}")
     
-    print(f"Processed and saved {len(processed_national)} indicator datasets.")
+    # Print summary statistics
+    print("\nSummary:")
+    print(f"Processed and saved {len(saved_indicators)} indicator datasets.")
+    print(f"Skipped {len(skipped_indicators)} indicators not found in label data.")
     
-    print("ETL process completed successfully.")
+    print("\nETL process completed successfully.")
