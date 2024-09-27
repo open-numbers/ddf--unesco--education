@@ -11,9 +11,8 @@ def extract_and_load_data():
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         with zip_ref.open(csv_file) as file:
             df = pd.read_csv(file)
-    
-    # Print the first few rows of the DataFrame
-    print(df.head())
+
+    return df
 
 def process_data(df):
     """
@@ -24,7 +23,7 @@ def process_data(df):
     processed_data = {}
     
     for indicator_id, group in df.groupby('indicator_id'):
-        group = group[['country_id', 'year', 'value']]
+        group = group[['country_id', 'year', 'value']].copy()
         group.rename(columns={'value': indicator_id}, inplace=True)
         processed_data[indicator_id] = group
     
@@ -32,5 +31,5 @@ def process_data(df):
 
 if __name__ == "__main__":
     df = extract_and_load_data()
-    processed_df = process_data(df)
-    print(processed_df.head())
+    processed = process_data(df)
+    print(list(processed.values())[0].head())
