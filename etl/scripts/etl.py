@@ -21,14 +21,14 @@ def process_data(df):
     For each indicator, extracts 'country_id', 'year', and 'value' columns,
     and renames the 'value' column to the corresponding 'indicator_id'.
     """
-    processed_data = []
+    processed_data = {}
     
     for indicator_id, group in df.groupby('indicator_id'):
         group = group[['country_id', 'year', 'value']]
         group.rename(columns={'value': indicator_id}, inplace=True)
-        processed_data.append(group)
+        processed_data[indicator_id] = group
     
-    return pd.concat(processed_data)
+    return processed_data
 
 if __name__ == "__main__":
     df = extract_and_load_data()
