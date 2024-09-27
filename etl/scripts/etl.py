@@ -34,7 +34,17 @@ def process_national_data(df):
     
     return processed_data
 
+def process_country_data(country_df):
+    """
+    Processes the country data by converting column names to lowercase and renaming the 'country_name_en' column to 'name'.
+    """
+    country_df.columns = country_df.columns.str.lower()
+    country_df.rename(columns={'country_name_en': 'name'}, inplace=True)
+    return country_df
+
 if __name__ == "__main__":
     country_df, national_data_df, label_df = extract_and_load_data()
-    processed = process_national_data(national_data_df)
-    print(list(processed.values())[0].head())
+    processed_national = process_national_data(national_data_df)
+    processed_country = process_country_data(country_df)
+    print(list(processed_national.values())[0].head())
+    print(processed_country.head())
