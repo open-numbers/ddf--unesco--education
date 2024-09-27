@@ -5,7 +5,7 @@ def extract_and_load_data():
     """
     Extracts the SDG_DATA_NATIONAL.csv file from the SDG.zip archive and loads it into a pandas DataFrame.
     """
-    zip_path = "etl/source/SDG.zip"
+    zip_path = "../source/SDG.zip"
     csv_file = "SDG_DATA_NATIONAL.csv"
     
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
