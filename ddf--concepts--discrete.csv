@@ -1,0 +1,5 @@
+concept,name,concept_type,domain
+name,Name,string,
+year,Year,time,
+country,Country,entity_domain,
+domain,Domain,string,
