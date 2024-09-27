@@ -78,10 +78,10 @@ def create_discrete_concepts():
     Creates a DataFrame for discrete concepts.
     """
     data = {
-        'concept': ['name', 'year', 'country'],
-        'name': ['Name', 'Year', 'Country'],
-        'concept_type': ['string', 'time', 'entity_domain'],
-        'domain': ['', '', '']
+        'concept': ['name', 'year', 'country', 'domain'],
+        'name': ['Name', 'Year', 'Country', 'Domain'],
+        'concept_type': ['string', 'time', 'entity_domain', 'string'],
+        'domain': ['', '', '', '']
     }
     return pd.DataFrame(data)
 
