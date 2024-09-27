@@ -5,15 +5,19 @@ ZIP_PATH = "../source/SDG.zip"
 
 def extract_and_load_data():
     """
-    Extracts the SDG_DATA_NATIONAL.csv file from the SDG.zip archive and loads it into a pandas DataFrame.
+    Extracts the SDG_COUNTRY.csv, SDG_DATA_NATIONAL.csv, and SDG_LABEL.csv files from the SDG.zip archive and loads them into pandas DataFrames.
+    Returns them as a tuple.
     """
-    csv_file = "SDG_DATA_NATIONAL.csv"
+    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_LABEL.csv"]
+    dfs = []
     
     with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
-        with zip_ref.open(csv_file) as file:
-            df = pd.read_csv(file)
+        for csv_file in csv_files:
+            with zip_ref.open(csv_file) as file:
+                df = pd.read_csv(file)
+                dfs.append(df)
 
-    return df
+    return tuple(dfs)
 
 def read_national_data(df):
     """
