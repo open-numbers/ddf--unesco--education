@@ -22,29 +22,43 @@ def extract_and_load_data():
 def process_national_data(df):
     """
     Groups the DataFrame by 'indicator_id' and processes the data.
-    For each indicator, extracts 'country_id', 'year', and 'value' columns,
+    For each indicator, extracts 'country', 'year', and 'value' columns,
     and renames the 'value' column to the corresponding 'indicator_id'.
     """
     processed_data = {}
     
     for indicator_id, group in df.groupby('indicator_id'):
         group = group[['country_id', 'year', 'value']].copy()
-        group.rename(columns={'value': indicator_id}, inplace=True)
+        group.rename(columns={'country_id': 'country', 'value': indicator_id}, inplace=True)
         processed_data[indicator_id] = group
     
     return processed_data
 
-def process_country_data(country_df):
+def process_country_id(country_df):
     """
-    Processes the country data by converting column names to lowercase and renaming the 'country_name_en' column to 'name'.
+    Processes the country data by converting column names to lowercase,
+    renaming the 'country_name_en' column to 'name', and 'country_id' to 'country'.
     """
     country_df.columns = country_df.columns.str.lower()
-    country_df.rename(columns={'country_name_en': 'name'}, inplace=True)
+    country_df.rename(columns={'country_name_en': 'name', 'country_id': 'country'}, inplace=True)
     return country_df
+
+def process_concept(label_df):
+    """
+    Processes the label data by converting all columns to lowercase,
+    renaming 'indicator_id' to 'concept' and 'indicator_label_en' to 'name',
+    and adding a 'concept_type' column with a fixed value of 'measure'.
+    """
+    label_df.columns = label_df.columns.str.lower()
+    label_df.rename(columns={'indicator_id': 'concept', 'indicator_label_en': 'name'}, inplace=True)
+    label_df['concept_type'] = 'measure'
+    return label_df
 
 if __name__ == "__main__":
     country_df, national_data_df, label_df = extract_and_load_data()
     processed_national = process_national_data(national_data_df)
-    processed_country = process_country_data(country_df)
+    processed_country = process_country_id(country_df)
+    processed_concept = process_concept(label_df)
     print(list(processed_national.values())[0].head())
     print(processed_country.head())
+    print(processed_concept.head())
