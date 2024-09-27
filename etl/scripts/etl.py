@@ -19,7 +19,7 @@ def extract_and_load_data():
 
     return tuple(dfs)
 
-def read_national_data(df):
+def process_national_data(df):
     """
     Groups the DataFrame by 'indicator_id' and processes the data.
     For each indicator, extracts 'country_id', 'year', and 'value' columns,
@@ -35,6 +35,6 @@ def read_national_data(df):
     return processed_data
 
 if __name__ == "__main__":
-    df = extract_and_load_data()
-    processed = read_national_data(df)
+    country_df, national_data_df, label_df = extract_and_load_data()
+    processed = process_national_data(national_data_df)
     print(list(processed.values())[0].head())
