@@ -26,13 +26,15 @@ def process_national_data(df):
     Groups the DataFrame by 'indicator_id' and processes the data.
     For each indicator, extracts 'country', 'year', and 'value' columns,
     and renames the 'value' column to the corresponding 'indicator_id'.
+    Makes all indicator IDs lowercase and replaces '.' with '_'.
     """
     processed_data = {}
     
     for indicator_id, group in df.groupby('indicator_id'):
+        processed_indicator_id = indicator_id.lower().replace('.', '_')
         group = group[['country_id', 'year', 'value']].copy()
-        group.rename(columns={'country_id': 'country', 'value': indicator_id}, inplace=True)
-        processed_data[indicator_id] = group
+        group.rename(columns={'country_id': 'country', 'value': processed_indicator_id}, inplace=True)
+        processed_data[processed_indicator_id] = group
     
     return processed_data
 
@@ -49,11 +51,13 @@ def process_concept(label_df):
     """
     Processes the label data by converting all columns to lowercase,
     renaming 'indicator_id' to 'concept' and 'indicator_label_en' to 'name',
-    and adding a 'concept_type' column with a fixed value of 'measure'.
+    adding a 'concept_type' column with a fixed value of 'measure',
+    and making all concept IDs lowercase and replacing '.' with '_'.
     """
     label_df.columns = label_df.columns.str.lower()
     label_df.rename(columns={'indicator_id': 'concept', 'indicator_label_en': 'name'}, inplace=True)
     label_df['concept_type'] = 'measure'
+    label_df['concept'] = label_df['concept'].str.lower().str.replace('.', '_')
     return label_df
 
 def create_discrete_concepts():
