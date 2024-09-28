@@ -5,6 +5,7 @@ import os
 ZIP_PATH = "../source/SDG.zip"
 OUTPUT_DIR = "../../"
 
+
 def extract_and_load_data():
     """
     Extracts the SDG_COUNTRY.csv, SDG_DATA_NATIONAL.csv, and SDG_LABEL.csv files from the SDG.zip archive and loads them into pandas DataFrames.
@@ -12,14 +13,15 @@ def extract_and_load_data():
     """
     csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_LABEL.csv"]
     dfs = []
-    
-    with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
+
+    with zipfile.ZipFile(ZIP_PATH, "r") as zip_ref:
         for csv_file in csv_files:
             with zip_ref.open(csv_file) as file:
                 df = pd.read_csv(file)
                 dfs.append(df)
 
     return tuple(dfs)
+
 
 def process_national_data(df):
     """
@@ -29,14 +31,18 @@ def process_national_data(df):
     Makes all indicator IDs lowercase and replaces '.' with '_'.
     """
     processed_data = {}
-    
-    for indicator_id, group in df.groupby('indicator_id'):
-        processed_indicator_id = indicator_id.lower().replace('.', '_')
-        group = group[['country_id', 'year', 'value']].copy()
-        group.rename(columns={'country_id': 'country', 'value': processed_indicator_id}, inplace=True)
+
+    for indicator_id, group in df.groupby("indicator_id"):
+        processed_indicator_id = indicator_id.lower().replace(".", "_")
+        group = group[["country_id", "year", "value"]].copy()
+        group.rename(
+            columns={"country_id": "country", "value": processed_indicator_id},
+            inplace=True,
+        )
         processed_data[processed_indicator_id] = group
-    
+
     return processed_data
+
 
 def process_country_id(country_df):
     """
@@ -44,8 +50,11 @@ def process_country_id(country_df):
     renaming the 'country_name_en' column to 'name', and 'country_id' to 'country'.
     """
     country_df.columns = country_df.columns.str.lower()
-    country_df.rename(columns={'country_name_en': 'name', 'country_id': 'country'}, inplace=True)
+    country_df.rename(
+        columns={"country_name_en": "name", "country_id": "country"}, inplace=True
+    )
     return country_df
+
 
 def process_concept(label_df):
     """
@@ -58,32 +67,36 @@ def process_concept(label_df):
     """
     # Convert column names to lowercase
     label_df.columns = label_df.columns.str.lower()
-    
+
     # Rename columns
-    label_df.rename(columns={'indicator_id': 'concept', 'indicator_label_en': 'name'}, inplace=True)
-    
+    label_df.rename(
+        columns={"indicator_id": "concept", "indicator_label_en": "name"}, inplace=True
+    )
+
     # Add concept_type column
-    label_df['concept_type'] = 'measure'
-    
+    label_df["concept_type"] = "measure"
+
     # Process concept IDs
-    label_df['concept'] = label_df['concept'].str.lower().str.replace('.', '_')
-    
+    label_df["concept"] = label_df["concept"].str.lower().str.replace(".", "_")
+
     # Strip whitespaces from all cells
     label_df = label_df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
-    
+
     return label_df
+
 
 def create_discrete_concepts():
     """
     Creates a DataFrame for discrete concepts.
     """
     data = {
-        'concept': ['name', 'year', 'country', 'domain'],
-        'name': ['Name', 'Year', 'Country', 'Domain'],
-        'concept_type': ['string', 'time', 'entity_domain', 'string'],
-        'domain': ['', '', '', '']
+        "concept": ["name", "year", "country", "domain"],
+        "name": ["Name", "Year", "Country", "Domain"],
+        "concept_type": ["string", "time", "entity_domain", "string"],
+        "domain": ["", "", "", ""],
     }
     return pd.DataFrame(data)
+
 
 def save_dataframe(df, filename):
     """
@@ -93,26 +106,27 @@ def save_dataframe(df, filename):
     df.to_csv(output_path, index=False)
     print(f"Saved: {output_path}")
 
+
 if __name__ == "__main__":
     # Extract and load data
     country_df, national_data_df, label_df = extract_and_load_data()
-    
+
     # Process data
     processed_national = process_national_data(national_data_df)
     processed_country = process_country_id(country_df)
     processed_concept_continuous = process_concept(label_df)
     processed_concept_discrete = create_discrete_concepts()
-    
+
     # Create a set of valid indicators from the label data
-    valid_indicators = set(processed_concept_continuous['concept'])
-    
+    valid_indicators = set(processed_concept_continuous["concept"])
+
     # Save processed country data
     save_dataframe(processed_country, "ddf--entities--country.csv")
-    
+
     # Save processed concept data
     save_dataframe(processed_concept_continuous, "ddf--concepts--continuous.csv")
     save_dataframe(processed_concept_discrete, "ddf--concepts--discrete.csv")
-    
+
     # Save processed national data (indicators)
     skipped_indicators = []
     saved_indicators = []
@@ -124,10 +138,10 @@ if __name__ == "__main__":
         else:
             skipped_indicators.append(indicator_id)
             print(f"Skipped indicator not found in label data: {indicator_id}")
-    
+
     # Print summary statistics
     print("\nSummary:")
     print(f"Processed and saved {len(saved_indicators)} indicator datasets.")
     print(f"Skipped {len(skipped_indicators)} indicators not found in label data.")
-    
+
     print("\nETL process completed successfully.")
