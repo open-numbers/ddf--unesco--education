@@ -11,7 +11,7 @@ def extract_and_load_data():
     Extracts the SDG_COUNTRY.csv, SDG_DATA_NATIONAL.csv, and SDG_LABEL.csv files from the SDG.zip archive and loads them into pandas DataFrames.
     Returns them as a tuple.
     """
-    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_LABEL.csv"]
+    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_DATA_REGIONAL.csv", "SDG_LABEL.csv"]
     dfs = []
 
     with zipfile.ZipFile(ZIP_PATH, "r") as zip_ref:
@@ -109,7 +109,7 @@ def save_dataframe(df, filename):
 
 if __name__ == "__main__":
     # Extract and load data
-    country_df, national_data_df, label_df = extract_and_load_data()
+    country_df, national_data_df, regionial_data_df, label_df = extract_and_load_data()
 
     # Process data
     processed_national = process_national_data(national_data_df)
