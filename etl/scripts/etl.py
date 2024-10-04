@@ -11,7 +11,7 @@ def extract_and_load_data():
     Extracts the SDG_COUNTRY.csv, SDG_DATA_NATIONAL.csv, and SDG_LABEL.csv files from the SDG.zip archive and loads them into pandas DataFrames.
     Returns them as a tuple.
     """
-    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_LABEL.csv"]
+    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_DATA_REGIONAL.csv", "SDG_LABEL.csv"]
     dfs = []
 
     with zipfile.ZipFile(ZIP_PATH, "r") as zip_ref:
@@ -44,6 +44,28 @@ def process_national_data(df):
     return processed_data
 
 
+def process_global_data(df):
+    """
+    We use SDG: World provided by the UNESCO regional data to get global datapoints.
+    """
+    global_df = df[df['region_id'] == 'SDG: World']
+    global_df['region_id'] = "world"
+
+    processed_data = {}
+
+    for indicator_id, group in global_df.groupby("indicator_id"):
+        processed_indicator_id = indicator_id.lower().replace(".", "_")
+        group = group[["region_id", "year", "value"]].copy()
+        group.rename(
+            columns={"region_id": "global", "value": processed_indicator_id},
+            inplace=True,
+        )
+        processed_data[processed_indicator_id] = group
+
+    return processed_data
+
+
+
 def process_country_id(country_df):
     """
     Processes the country data by converting column names to lowercase,
@@ -53,7 +75,17 @@ def process_country_id(country_df):
     country_df.rename(
         columns={"country_name_en": "name", "country_id": "country"}, inplace=True
     )
+    country_df['is--country'] = 'TRUE'
     return country_df
+
+
+def create_global_entity():
+    data = {
+        "global": ["world"],
+        "name": ["World"],
+        "is--global": ["TRUE"]
+    }
+    return pd.DataFrame(data)
 
 
 def process_concept(label_df):
@@ -90,10 +122,10 @@ def create_discrete_concepts():
     Creates a DataFrame for discrete concepts.
     """
     data = {
-        "concept": ["name", "year", "country", "domain"],
-        "name": ["Name", "Year", "Country", "Domain"],
-        "concept_type": ["string", "time", "entity_domain", "string"],
-        "domain": ["", "", "", ""],
+        "concept": ["name", "year", "country", "domain", "global", "geo"],
+        "name": ["Name", "Year", "Country", "Domain", "World", "Geographic locations"],
+        "concept_type": ["string", "time", "entity_set", "string", "entity_set", "entity_domain"],
+        "domain": ["", "", "geo", "", "geo", ""],
     }
     return pd.DataFrame(data)
 
@@ -108,11 +140,16 @@ def save_dataframe(df, filename):
 
 
 if __name__ == "__main__":
+    # create datapoints output dir if not exists
+    os.makedirs(os.path.join(OUTPUT_DIR, "national_datapoints"), exist_ok=True)
+    os.makedirs(os.path.join(OUTPUT_DIR, "global_datapoints"), exist_ok=True)
+    
     # Extract and load data
-    country_df, national_data_df, label_df = extract_and_load_data()
+    country_df, national_data_df, regional_data_df, label_df = extract_and_load_data()
 
     # Process data
     processed_national = process_national_data(national_data_df)
+    processed_global = process_global_data(regional_data_df)
     processed_country = process_country_id(country_df)
     processed_concept_continuous = process_concept(label_df)
     processed_concept_discrete = create_discrete_concepts()
@@ -121,27 +158,43 @@ if __name__ == "__main__":
     valid_indicators = set(processed_concept_continuous["concept"])
 
     # Save processed country data
-    save_dataframe(processed_country, "ddf--entities--country.csv")
+    save_dataframe(processed_country, "ddf--entities--geo--country.csv")
+
+    # Save global entity
+    save_dataframe(create_global_entity(), "ddf--entities--geo--global.csv")
 
     # Save processed concept data
     save_dataframe(processed_concept_continuous, "ddf--concepts--continuous.csv")
     save_dataframe(processed_concept_discrete, "ddf--concepts--discrete.csv")
 
     # Save processed national data (indicators)
-    skipped_indicators = []
-    saved_indicators = []
+    national_skipped_indicators = []
+    national_saved_indicators = []
     for indicator_id, df in processed_national.items():
         if indicator_id in valid_indicators:
-            filename = f"ddf--datapoints--{indicator_id}--by--country--year.csv"
+            filename = f"national_datapoints/ddf--datapoints--{indicator_id}--by--country--year.csv"
             save_dataframe(df, filename)
-            saved_indicators.append(indicator_id)
+            national_saved_indicators.append(indicator_id)
         else:
-            skipped_indicators.append(indicator_id)
+            national_skipped_indicators.append(indicator_id)
             print(f"Skipped indicator not found in label data: {indicator_id}")
+
+    # Save processed world data
+    world_skipped_indicators = []
+    world_saved_indicators = []
+    for indicator_id, df in processed_global.items():
+        if indicator_id in valid_indicators:
+            filename = f"global_datapoints/ddf--datapoints--{indicator_id}--by--global--year.csv"
+            save_dataframe(df, filename)
+            world_saved_indicators.append(indicator_id)
+        else:
+            world_skipped_indicators.append(indicator_id)
+            print(f"Skipped indicator not found in label data: {indicator_id}")
+
 
     # Print summary statistics
     print("\nSummary:")
-    print(f"Processed and saved {len(saved_indicators)} indicator datasets.")
-    print(f"Skipped {len(skipped_indicators)} indicators not found in label data.")
+    print(f"Skipped {len(national_skipped_indicators)} national indicators not found in label data.")
+    print(f"Skipped {len(world_skipped_indicators)} world indicators not found in label data.")
 
     print("\nETL process completed successfully.")
