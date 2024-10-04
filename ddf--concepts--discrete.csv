@@ -1,5 +1,7 @@
 concept,name,concept_type,domain
 name,Name,string,
 year,Year,time,
-country,Country,entity_domain,
+country,Country,entity_set,geo
 domain,Domain,string,
+global,World,entity_set,geo
+geo,Geographic locations,entity_domain,
