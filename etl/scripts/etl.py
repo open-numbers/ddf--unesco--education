@@ -4,6 +4,10 @@ import os
 
 ZIP_PATH = "../source/SDG.zip"
 OUTPUT_DIR = "../../"
+OFST_GLOBAL_PATH = "../source/ofst_global.csv"
+OFST_NATIONAL_PATH = "../source/ofst_national.csv"
+
+OFST_INDICATORS = ['ofst_1_cp', 'ofst_1_m_cp', 'ofst_1_f_cp']
 
 
 def extract_and_load_data():
@@ -129,14 +133,75 @@ def create_discrete_concepts():
     }
     return pd.DataFrame(data)
 
+def create_ofst_concepts():
+    """
+    Creates a DataFrame for OFST concepts.
+    """
+    data = {
+        "concept": OFST_INDICATORS,
+        "name": [
+            "Out-of-school children of primary school age, both sexes (number)",
+            "Out-of-school children of primary school age, male (number)",
+            "Out-of-school children of primary school age, female (number)"
+        ],
+        "concept_type": ["measure"] * len(OFST_INDICATORS),
+    }
+    return pd.DataFrame(data)
+
 
 def save_dataframe(df, filename):
     """
     Saves a DataFrame to a CSV file in the output directory.
     """
     output_path = os.path.join(OUTPUT_DIR, filename)
-    df.to_csv(output_path, index=False)
+    df.dropna(how='any').to_csv(output_path, index=False)
     print(f"Saved: {output_path}")
+
+
+def process_ofst_data(file_path, is_global=False):
+    """
+    Process OFST data from CSV file.
+    """
+    df = pd.read_csv(file_path)
+    processed_data = {}
+
+    for indicator in OFST_INDICATORS:
+        # Convert indicator to uppercase, as in the source file
+        source_indicator = indicator.upper()
+        
+        indicator_df = df[df['NATMON_IND'] == source_indicator].copy()
+        if is_global:
+            indicator_df = indicator_df[['Time', 'Value']].rename(columns={'Time': 'year', 'Value': indicator})
+            indicator_df['global'] = 'world'
+        else:
+            indicator_df = indicator_df[['LOCATION', 'Time', 'Value']].rename(columns={'LOCATION': 'country', 'Time': 'year', 'Value': indicator})
+        
+        processed_data[indicator] = indicator_df
+
+    return processed_data
+
+
+def check_and_create_ofst_datapoints():
+    """
+    Check if OFST datapoints exist, and create them if they don't.
+    """
+    # Process national data
+    national_data = process_ofst_data(OFST_NATIONAL_PATH)
+    for indicator, df in national_data.items():
+        filename = f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
+        full_path = os.path.join(OUTPUT_DIR, filename)
+        if not os.path.exists(full_path):
+            save_dataframe(df, filename)
+            print(f"Created missing national datapoints for {indicator}")
+
+    # Process global data
+    global_data = process_ofst_data(OFST_GLOBAL_PATH, is_global=True)
+    for indicator, df in global_data.items():
+        filename = f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
+        full_path = os.path.join(OUTPUT_DIR, filename)
+        if not os.path.exists(full_path):
+            save_dataframe(df, filename)
+            print(f"Created missing global datapoints for {indicator}")
 
 
 if __name__ == "__main__":
@@ -162,6 +227,17 @@ if __name__ == "__main__":
 
     # Save global entity
     save_dataframe(create_global_entity(), "ddf--entities--geo--global.csv")
+
+    # Process OFST concepts
+    ofst_concepts = create_ofst_concepts()
+
+    # Check if OFST indicators are already in continuous concepts
+    existing_concepts = set(processed_concept_continuous['concept'])
+    new_ofst_concepts = ofst_concepts[~ofst_concepts['concept'].isin(existing_concepts)]
+
+    # Append new OFST concepts to processed_concept_continuous
+    if not new_ofst_concepts.empty:
+        processed_concept_continuous = pd.concat([processed_concept_continuous, new_ofst_concepts], ignore_index=True)
 
     # Save processed concept data
     save_dataframe(processed_concept_continuous, "ddf--concepts--continuous.csv")
@@ -196,5 +272,8 @@ if __name__ == "__main__":
     print("\nSummary:")
     print(f"Skipped {len(national_skipped_indicators)} national indicators not found in label data.")
     print(f"Skipped {len(world_skipped_indicators)} world indicators not found in label data.")
+
+    # now check ofst datapoints
+    check_and_create_ofst_datapoints()
 
     print("\nETL process completed successfully.")
