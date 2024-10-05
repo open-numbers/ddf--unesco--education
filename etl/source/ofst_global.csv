@@ -1,0 +1,73 @@
+NATMON_IND,Indicator,LOCATION,Country,Time,Value
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2000,99875660
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2001,90235814
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2002,88510313
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2003,79267581
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2004,73427621
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2005,68510506
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2006,66342808
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2007,60264670
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2008,59342692
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2009,60174704
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2010,58815753
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2011,59700615
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2012,59679487
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2013,59105579
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2014,61751877
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2015,66584320
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2016,66480836
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2017,67900364
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2018,69432398
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2019,70709417
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2020,72318494
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2021,72930423
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2022,71879224
+OFST_1_CP,"Out-of-school children of primary school age, both sexes (number)",40675,World,2023,74727868
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2000,42803299
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2001,38355592
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2002,37954086
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2003,36186280
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2004,32822958
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2005,30194370
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2006,30034342
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2007,27315478
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2008,27385009
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2009,28810373
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2010,28027981
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2011,28686369
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2012,27906078
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2013,27644804
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2014,28465637
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2015,30569546
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2016,30287193
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2017,30975091
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2018,30897295
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2019,31804867
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2020,33080309
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2021,33139089
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2022,32461606
+OFST_1_M_CP,"Out-of-school children of primary school age, male (number)",40675,World,2023,33852348
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2000,57072360
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2001,51880222
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2002,50556227
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2003,43081302
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2004,40604663
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2005,38316136
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2006,36308466
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2007,32949192
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2008,31957683
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2009,31364331
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2010,30787771
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2011,31014246
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2012,31773409
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2013,31460774
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2014,33286240
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2015,36014774
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2016,36193643
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2017,36925274
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2018,38535103
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2019,38904550
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2020,39238185
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2021,39791334
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2022,39417619
+OFST_1_F_CP,"Out-of-school children of primary school age, female (number)",40675,World,2023,40875520
