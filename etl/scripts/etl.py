@@ -48,6 +48,7 @@ def process_national_data(df):
             columns={"country_id": "country", "value": processed_indicator_id},
             inplace=True,
         )
+        group["country"] = group["country"].str.lower()
         processed_data[processed_indicator_id] = group
 
     return processed_data
@@ -83,6 +84,7 @@ def process_country_id(country_df):
     country_df.rename(
         columns={"country_name_en": "name", "country_id": "country"}, inplace=True
     )
+    country_df["country"] = country_df["country"].str.lower()
     country_df["is--country"] = "TRUE"
     return country_df
 
@@ -187,6 +189,7 @@ def process_ofst_data(file_path, is_global=False):
             indicator_df = indicator_df[["LOCATION", "Time", "Value"]].rename(
                 columns={"LOCATION": "country", "Time": "year", "Value": indicator}
             )
+            indicator_df["country"] = indicator_df["country"].str.lower()
 
         processed_data[indicator] = indicator_df
 
