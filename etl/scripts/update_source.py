@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # Global variable to store the last update date (manually set)
-LAST_UPDATE = "2023-09-04"  # Example date, replace with actual last update date
+LAST_UPDATE = "2024-10-6"  # Example date, replace with actual last update date
 
 
 def check_for_new_version():
