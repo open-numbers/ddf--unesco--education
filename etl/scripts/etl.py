@@ -7,7 +7,7 @@ OUTPUT_DIR = "../../"
 OFST_GLOBAL_PATH = "../source/ofst_global.csv"
 OFST_NATIONAL_PATH = "../source/ofst_national.csv"
 
-OFST_INDICATORS = ['ofst_1_cp', 'ofst_1_m_cp', 'ofst_1_f_cp']
+OFST_INDICATORS = ["ofst_1_cp", "ofst_1_m_cp", "ofst_1_f_cp"]
 
 
 def extract_and_load_data():
@@ -15,7 +15,12 @@ def extract_and_load_data():
     Extracts the SDG_COUNTRY.csv, SDG_DATA_NATIONAL.csv, and SDG_LABEL.csv files from the SDG.zip archive and loads them into pandas DataFrames.
     Returns them as a tuple.
     """
-    csv_files = ["SDG_COUNTRY.csv", "SDG_DATA_NATIONAL.csv", "SDG_DATA_REGIONAL.csv", "SDG_LABEL.csv"]
+    csv_files = [
+        "SDG_COUNTRY.csv",
+        "SDG_DATA_NATIONAL.csv",
+        "SDG_DATA_REGIONAL.csv",
+        "SDG_LABEL.csv",
+    ]
     dfs = []
 
     with zipfile.ZipFile(ZIP_PATH, "r") as zip_ref:
@@ -52,8 +57,8 @@ def process_global_data(df):
     """
     We use SDG: World provided by the UNESCO regional data to get global datapoints.
     """
-    global_df = df[df['region_id'] == 'SDG: World']
-    global_df['region_id'] = "world"
+    global_df = df[df["region_id"] == "SDG: World"]
+    global_df["region_id"] = "world"
 
     processed_data = {}
 
@@ -69,7 +74,6 @@ def process_global_data(df):
     return processed_data
 
 
-
 def process_country_id(country_df):
     """
     Processes the country data by converting column names to lowercase,
@@ -79,16 +83,12 @@ def process_country_id(country_df):
     country_df.rename(
         columns={"country_name_en": "name", "country_id": "country"}, inplace=True
     )
-    country_df['is--country'] = 'TRUE'
+    country_df["is--country"] = "TRUE"
     return country_df
 
 
 def create_global_entity():
-    data = {
-        "global": ["world"],
-        "name": ["World"],
-        "is--global": ["TRUE"]
-    }
+    data = {"global": ["world"], "name": ["World"], "is--global": ["TRUE"]}
     return pd.DataFrame(data)
 
 
@@ -128,10 +128,18 @@ def create_discrete_concepts():
     data = {
         "concept": ["name", "year", "country", "domain", "global", "geo"],
         "name": ["Name", "Year", "Country", "Domain", "World", "Geographic locations"],
-        "concept_type": ["string", "time", "entity_set", "string", "entity_set", "entity_domain"],
+        "concept_type": [
+            "string",
+            "time",
+            "entity_set",
+            "string",
+            "entity_set",
+            "entity_domain",
+        ],
         "domain": ["", "", "geo", "", "geo", ""],
     }
     return pd.DataFrame(data)
+
 
 def create_ofst_concepts():
     """
@@ -142,7 +150,7 @@ def create_ofst_concepts():
         "name": [
             "Out-of-school children of primary school age, both sexes (number)",
             "Out-of-school children of primary school age, male (number)",
-            "Out-of-school children of primary school age, female (number)"
+            "Out-of-school children of primary school age, female (number)",
         ],
         "concept_type": ["measure"] * len(OFST_INDICATORS),
     }
@@ -154,7 +162,7 @@ def save_dataframe(df, filename):
     Saves a DataFrame to a CSV file in the output directory.
     """
     output_path = os.path.join(OUTPUT_DIR, filename)
-    df.dropna(how='any').to_csv(output_path, index=False)
+    df.dropna(how="any").to_csv(output_path, index=False)
     print(f"Saved: {output_path}")
 
 
@@ -168,14 +176,18 @@ def process_ofst_data(file_path, is_global=False):
     for indicator in OFST_INDICATORS:
         # Convert indicator to uppercase, as in the source file
         source_indicator = indicator.upper()
-        
-        indicator_df = df[df['NATMON_IND'] == source_indicator].copy()
+
+        indicator_df = df[df["NATMON_IND"] == source_indicator].copy()
         if is_global:
-            indicator_df = indicator_df[['Time', 'Value']].rename(columns={'Time': 'year', 'Value': indicator})
-            indicator_df['global'] = 'world'
+            indicator_df = indicator_df[["Time", "Value"]].rename(
+                columns={"Time": "year", "Value": indicator}
+            )
+            indicator_df["global"] = "world"
         else:
-            indicator_df = indicator_df[['LOCATION', 'Time', 'Value']].rename(columns={'LOCATION': 'country', 'Time': 'year', 'Value': indicator})
-        
+            indicator_df = indicator_df[["LOCATION", "Time", "Value"]].rename(
+                columns={"LOCATION": "country", "Time": "year", "Value": indicator}
+            )
+
         processed_data[indicator] = indicator_df
 
     return processed_data
@@ -188,7 +200,9 @@ def check_and_create_ofst_datapoints():
     # Process national data
     national_data = process_ofst_data(OFST_NATIONAL_PATH)
     for indicator, df in national_data.items():
-        filename = f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
+        filename = (
+            f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
+        )
         full_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
@@ -197,7 +211,9 @@ def check_and_create_ofst_datapoints():
     # Process global data
     global_data = process_ofst_data(OFST_GLOBAL_PATH, is_global=True)
     for indicator, df in global_data.items():
-        filename = f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
+        filename = (
+            f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
+        )
         full_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
@@ -208,7 +224,7 @@ if __name__ == "__main__":
     # create datapoints output dir if not exists
     os.makedirs(os.path.join(OUTPUT_DIR, "national_datapoints"), exist_ok=True)
     os.makedirs(os.path.join(OUTPUT_DIR, "global_datapoints"), exist_ok=True)
-    
+
     # Extract and load data
     country_df, national_data_df, regional_data_df, label_df = extract_and_load_data()
 
@@ -232,12 +248,14 @@ if __name__ == "__main__":
     ofst_concepts = create_ofst_concepts()
 
     # Check if OFST indicators are already in continuous concepts
-    existing_concepts = set(processed_concept_continuous['concept'])
-    new_ofst_concepts = ofst_concepts[~ofst_concepts['concept'].isin(existing_concepts)]
+    existing_concepts = set(processed_concept_continuous["concept"])
+    new_ofst_concepts = ofst_concepts[~ofst_concepts["concept"].isin(existing_concepts)]
 
     # Append new OFST concepts to processed_concept_continuous
     if not new_ofst_concepts.empty:
-        processed_concept_continuous = pd.concat([processed_concept_continuous, new_ofst_concepts], ignore_index=True)
+        processed_concept_continuous = pd.concat(
+            [processed_concept_continuous, new_ofst_concepts], ignore_index=True
+        )
 
     # Save processed concept data
     save_dataframe(processed_concept_continuous, "ddf--concepts--continuous.csv")
@@ -267,11 +285,14 @@ if __name__ == "__main__":
             world_skipped_indicators.append(indicator_id)
             print(f"Skipped indicator not found in label data: {indicator_id}")
 
-
     # Print summary statistics
     print("\nSummary:")
-    print(f"Skipped {len(national_skipped_indicators)} national indicators not found in label data.")
-    print(f"Skipped {len(world_skipped_indicators)} world indicators not found in label data.")
+    print(
+        f"Skipped {len(national_skipped_indicators)} national indicators not found in label data."
+    )
+    print(
+        f"Skipped {len(world_skipped_indicators)} world indicators not found in label data."
+    )
 
     # now check ofst datapoints
     check_and_create_ofst_datapoints()
