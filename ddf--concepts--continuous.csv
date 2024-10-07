@@ -2228,3 +2228,6 @@ years_fc_comp_02,Number of years of compulsory pre-primary education guaranteed 
 years_fc_comp_1t3,Number of years of compulsory primary and secondary education guaranteed in legal frameworks,measure
 years_fc_free_02,Number of years of free pre-primary education guaranteed in legal frameworks,measure
 years_fc_free_1t3,Number of years of free primary and secondary education guaranteed in legal frameworks,measure
+ofst_1_cp,"Out-of-school children of primary school age, both sexes (number)",measure
+ofst_1_m_cp,"Out-of-school children of primary school age, male (number)",measure
+ofst_1_f_cp,"Out-of-school children of primary school age, female (number)",measure

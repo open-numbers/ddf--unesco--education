@@ -8,7 +8,7 @@
         "name": "English",
         "id": "en"
     },
-    "created": "2024-10-04T03:50:38.706Z",
+    "created": "2024-10-07T03:00:10.231Z",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -34305,6 +34305,132 @@
             }
         },
         {
+            "name": "ddf--datapoints--ofst_1_cp--by--country--year",
+            "path": "national_datapoints/ddf--datapoints--ofst_1_cp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ofst_1_cp--by--global--year",
+            "path": "global_datapoints/ddf--datapoints--ofst_1_cp--by--global--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "global"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "global",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ofst_1_f_cp--by--country--year",
+            "path": "national_datapoints/ddf--datapoints--ofst_1_f_cp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_f_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ofst_1_f_cp--by--global--year",
+            "path": "global_datapoints/ddf--datapoints--ofst_1_f_cp--by--global--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "global"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_f_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "global",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ofst_1_m_cp--by--country--year",
+            "path": "national_datapoints/ddf--datapoints--ofst_1_m_cp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_m_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ofst_1_m_cp--by--global--year",
+            "path": "global_datapoints/ddf--datapoints--ofst_1_m_cp--by--global--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "global"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ofst_1_m_cp"
+                    }
+                ],
+                "primaryKey": [
+                    "global",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--ontrack_three_domains--by--country--year",
             "path": "national_datapoints/ddf--datapoints--ontrack_three_domains--by--country--year.csv",
             "schema": {
@@ -65817,6 +65943,36 @@
                     "country",
                     "year"
                 ],
+                "value": "ofst_1_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ofst_1_f_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_f_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ofst_1_m_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_m_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "ontrack_three_domains",
                 "resources": [
                     "ddf--datapoints--ontrack_three_domains--by--country--year"
@@ -87916,6 +88072,39 @@
                     "geo",
                     "year"
                 ],
+                "value": "ofst_1_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_cp--by--global--year",
+                    "ddf--datapoints--ofst_1_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "ofst_1_f_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_f_cp--by--global--year",
+                    "ddf--datapoints--ofst_1_f_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "ofst_1_m_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_m_cp--by--global--year",
+                    "ddf--datapoints--ofst_1_m_cp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "ontrack_three_domains",
                 "resources": [
                     "ddf--datapoints--ontrack_three_domains--by--country--year"
@@ -94953,6 +95142,36 @@
                 "value": "oaepg_2_gpv_m",
                 "resources": [
                     "ddf--datapoints--oaepg_2_gpv_m--by--global--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "global",
+                    "year"
+                ],
+                "value": "ofst_1_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_cp--by--global--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "global",
+                    "year"
+                ],
+                "value": "ofst_1_f_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_f_cp--by--global--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "global",
+                    "year"
+                ],
+                "value": "ofst_1_m_cp",
+                "resources": [
+                    "ddf--datapoints--ofst_1_m_cp--by--global--year"
                 ]
             },
             {
