@@ -1,242 +1,242 @@
 country,name,is--country
-AFG,Afghanistan,TRUE
-ALB,Albania,TRUE
-DZA,Algeria,TRUE
-ASM,American Samoa,TRUE
-AND,Andorra,TRUE
-AGO,Angola,TRUE
-AIA,Anguilla,TRUE
-ATG,Antigua and Barbuda,TRUE
-ARG,Argentina,TRUE
-ARM,Armenia,TRUE
-ABW,Aruba,TRUE
-AUS,Australia,TRUE
-AZE,Azerbaijan,TRUE
-AUT,Austria,TRUE
-BHS,Bahamas,TRUE
-BHR,Bahrain,TRUE
-BGD,Bangladesh,TRUE
-BRB,Barbados,TRUE
-BEL,Belgium,TRUE
-BIH,Bosnia and Herzegovina,TRUE
-BLZ,Belize,TRUE
-BMU,Bermuda,TRUE
-BTN,Bhutan,TRUE
-BOL,Bolivia (Plurinational State of),TRUE
-BWA,Botswana,TRUE
-BRA,Brazil,TRUE
-SLB,Solomon Islands,TRUE
-PLW,Palau,TRUE
-BRN,Brunei Darussalam,TRUE
-BGR,Bulgaria,TRUE
-HRV,Croatia,TRUE
-MMR,Myanmar,TRUE
-BDI,Burundi,TRUE
-CMR,Cameroon,TRUE
-CAN,Canada,TRUE
-CPV,Cabo Verde,TRUE
-CYM,Cayman Islands,TRUE
-CAF,Central African Republic,TRUE
-TCD,Chad,TRUE
-CHL,Chile,TRUE
-CHN,China,TRUE
-COL,Colombia,TRUE
-COM,Comoros,TRUE
-MYT,Mayotte,TRUE
-COG,Congo,TRUE
-COK,Cook Islands,TRUE
-CRI,Costa Rica,TRUE
-CUB,Cuba,TRUE
-CYP,Cyprus,TRUE
-CZE,Czechia,TRUE
-BEN,Benin,TRUE
-DNK,Denmark,TRUE
-DMA,Dominica,TRUE
-DOM,Dominican Republic,TRUE
-ECU,Ecuador,TRUE
-EGY,Egypt,TRUE
-SLV,El Salvador,TRUE
-GNQ,Equatorial Guinea,TRUE
-ERI,Eritrea,TRUE
-EST,Estonia,TRUE
-ETH,Ethiopia,TRUE
-FRO,Faeroe Islands,TRUE
-FLK,Falkland Islands (Malvinas),TRUE
-FJI,Fiji,TRUE
-FIN,Finland,TRUE
-ALA,Åland Islands,TRUE
-FRA,France,TRUE
-GUF,French Guiana,TRUE
-PYF,French Polynesia,TRUE
-DJI,Djibouti,TRUE
-GAB,Gabon,TRUE
-GMB,Gambia,TRUE
-GEO,Georgia,TRUE
-DEU,Germany,TRUE
-GHA,Ghana,TRUE
-GIB,Gibraltar,TRUE
-KIR,Kiribati,TRUE
-GRC,Greece,TRUE
-GRL,Greenland,TRUE
-GRD,Grenada,TRUE
-GLP,Guadeloupe,TRUE
-GUM,Guam,TRUE
-GTM,Guatemala,TRUE
-GIN,Guinea,TRUE
-GUY,Guyana,TRUE
-HTI,Haiti,TRUE
-VAT,Holy See,TRUE
-HND,Honduras,TRUE
-HKG,"China, Hong Kong Special Administrative Region",TRUE
-HUN,Hungary,TRUE
-ISL,Iceland,TRUE
-IND,India,TRUE
-IDN,Indonesia,TRUE
-IRN,Iran (Islamic Republic of),TRUE
-IRQ,Iraq,TRUE
-IRL,Ireland,TRUE
-ISR,Israel,TRUE
-ITA,Italy,TRUE
-CIV,Côte d'Ivoire,TRUE
-JAM,Jamaica,TRUE
-JPN,Japan,TRUE
-JOR,Jordan,TRUE
-KAZ,Kazakhstan,TRUE
-KEN,Kenya,TRUE
-KHM,Cambodia,TRUE
-KOR,Republic of Korea,TRUE
-PRK,Democratic People's Republic of Korea,TRUE
-KWT,Kuwait,TRUE
-KGZ,Kyrgyzstan,TRUE
-LAO,Lao People's Democratic Republic,TRUE
-LVA,Latvia,TRUE
-LBN,Lebanon,TRUE
-LSO,Lesotho,TRUE
-LBR,Liberia,TRUE
-LBY,Libya,TRUE
-LIE,Liechtenstein,TRUE
-LTU,Lithuania,TRUE
-LUX,Luxembourg,TRUE
-MAC,"China, Macao Special Administrative Region",TRUE
-MKD,North Macedonia,TRUE
-MDG,Madagascar,TRUE
-MWI,Malawi,TRUE
-MYS,Malaysia,TRUE
-MDV,Maldives,TRUE
-MLI,Mali,TRUE
-MLT,Malta,TRUE
-MTQ,Martinique,TRUE
-MRT,Mauritania,TRUE
-MUS,Mauritius,TRUE
-MEX,Mexico,TRUE
-FSM,Micronesia (Federated States of),TRUE
-MCO,Monaco,TRUE
-MNG,Mongolia,TRUE
-MNE,Montenegro,TRUE
-MSR,Montserrat,TRUE
-MAR,Morocco,TRUE
-MOZ,Mozambique,TRUE
-MNP,Northern Mariana Islands,TRUE
-NAM,Namibia,TRUE
-NRU,Nauru,TRUE
-NPL,Nepal,TRUE
-NLD,Netherlands,TRUE
-CUW,Curaçao,TRUE
-ANT,Netherlands Antilles,TRUE
-SXM,Sint Maarten (Dutch part),TRUE
-NCL,New Caledonia,TRUE
-VUT,Vanuatu,TRUE
-NZL,New Zealand,TRUE
-NIC,Nicaragua,TRUE
-NER,Niger,TRUE
-NGA,Nigeria,TRUE
-NIU,Niue,TRUE
-NFK,Norfolk Island,TRUE
-NOR,Norway,TRUE
-OMN,Oman,TRUE
-MHL,Marshall Islands,TRUE
-PAK,Pakistan,TRUE
-PSE,Palestine,TRUE
-PAN,Panama,TRUE
-PNG,Papua New Guinea,TRUE
-PRY,Paraguay,TRUE
-PER,Peru,TRUE
-PHL,Philippines,TRUE
-PCN,Pitcairn,TRUE
-POL,Poland,TRUE
-PRT,Portugal,TRUE
-MDA,Republic of Moldova,TRUE
-GNB,Guinea-Bissau,TRUE
-TLS,Timor-Leste,TRUE
-PRI,Puerto Rico,TRUE
-QAT,Qatar,TRUE
-REU,Réunion,TRUE
-ROU,Romania,TRUE
-RUS,Russian Federation,TRUE
-RWA,Rwanda,TRUE
-BLM,Saint-Barthélemy,TRUE
-SHN,Saint Helena,TRUE
-KNA,Saint Kitts and Nevis,TRUE
-LCA,Saint Lucia,TRUE
-MAF,Saint-Martin (French part),TRUE
-SPM,Saint Pierre and Miquelon,TRUE
-VCT,Saint Vincent and the Grenadines,TRUE
-SVK,Slovakia,TRUE
-SMR,San Marino,TRUE
-SVN,Slovenia,TRUE
-STP,Sao Tome and Principe,TRUE
-SAU,Saudi Arabia,TRUE
-SEN,Senegal,TRUE
-SRB,Serbia,TRUE
-SYC,Seychelles,TRUE
-SLE,Sierra Leone,TRUE
-SGP,Singapore,TRUE
-SOM,Somalia,TRUE
-ZAF,South Africa,TRUE
-ZWE,Zimbabwe,TRUE
-ESP,Spain,TRUE
-SSD,South Sudan,TRUE
-SDN,Sudan,TRUE
-ESH,Western Sahara,TRUE
-LKA,Sri Lanka,TRUE
-XDN,Sudan (pre-secession),TRUE
-SUR,Suriname,TRUE
-SJM,Svalbard and Jan Mayen Islands,TRUE
-SWZ,Eswatini,TRUE
-SWE,Sweden,TRUE
-CHE,Switzerland,TRUE
-SYR,Syrian Arab Republic,TRUE
-TJK,Tajikistan,TRUE
-TZA,United Republic of Tanzania,TRUE
-THA,Thailand,TRUE
-TGO,Togo,TRUE
-TKL,Tokelau,TRUE
-TON,Tonga,TRUE
-TUV,Tuvalu,TRUE
-TTO,Trinidad and Tobago,TRUE
-TUN,Tunisia,TRUE
-TUR,Turkey,TRUE
-TKM,Turkmenistan,TRUE
-TCA,Turks and Caicos Islands,TRUE
-UGA,Uganda,TRUE
-BLR,Belarus,TRUE
-UKR,Ukraine,TRUE
-ARE,United Arab Emirates,TRUE
-GBR,United Kingdom of Great Britain and Northern Ireland,TRUE
-ZZA,Channel Islands,TRUE
-GGY,Guernsey,TRUE
-JEY,Jersey,TRUE
-IMN,Isle of Man,TRUE
-USA,United States of America,TRUE
-BFA,Burkina Faso,TRUE
-URY,Uruguay,TRUE
-UZB,Uzbekistan,TRUE
-VEN,Venezuela (Bolivarian Republic of),TRUE
-VNM,Viet Nam,TRUE
-VGB,British Virgin Islands,TRUE
-VIR,United States Virgin Islands,TRUE
-WLF,Wallis and Futuna Islands,TRUE
-WSM,Samoa,TRUE
-YEM,Yemen,TRUE
-COD,Democratic Republic of the Congo,TRUE
-ZMB,Zambia,TRUE
+afg,Afghanistan,TRUE
+alb,Albania,TRUE
+dza,Algeria,TRUE
+asm,American Samoa,TRUE
+and,Andorra,TRUE
+ago,Angola,TRUE
+aia,Anguilla,TRUE
+atg,Antigua and Barbuda,TRUE
+arg,Argentina,TRUE
+arm,Armenia,TRUE
+abw,Aruba,TRUE
+aus,Australia,TRUE
+aze,Azerbaijan,TRUE
+aut,Austria,TRUE
+bhs,Bahamas,TRUE
+bhr,Bahrain,TRUE
+bgd,Bangladesh,TRUE
+brb,Barbados,TRUE
+bel,Belgium,TRUE
+bih,Bosnia and Herzegovina,TRUE
+blz,Belize,TRUE
+bmu,Bermuda,TRUE
+btn,Bhutan,TRUE
+bol,Bolivia (Plurinational State of),TRUE
+bwa,Botswana,TRUE
+bra,Brazil,TRUE
+slb,Solomon Islands,TRUE
+plw,Palau,TRUE
+brn,Brunei Darussalam,TRUE
+bgr,Bulgaria,TRUE
+hrv,Croatia,TRUE
+mmr,Myanmar,TRUE
+bdi,Burundi,TRUE
+cmr,Cameroon,TRUE
+can,Canada,TRUE
+cpv,Cabo Verde,TRUE
+cym,Cayman Islands,TRUE
+caf,Central African Republic,TRUE
+tcd,Chad,TRUE
+chl,Chile,TRUE
+chn,China,TRUE
+col,Colombia,TRUE
+com,Comoros,TRUE
+myt,Mayotte,TRUE
+cog,Congo,TRUE
+cok,Cook Islands,TRUE
+cri,Costa Rica,TRUE
+cub,Cuba,TRUE
+cyp,Cyprus,TRUE
+cze,Czechia,TRUE
+ben,Benin,TRUE
+dnk,Denmark,TRUE
+dma,Dominica,TRUE
+dom,Dominican Republic,TRUE
+ecu,Ecuador,TRUE
+egy,Egypt,TRUE
+slv,El Salvador,TRUE
+gnq,Equatorial Guinea,TRUE
+eri,Eritrea,TRUE
+est,Estonia,TRUE
+eth,Ethiopia,TRUE
+fro,Faeroe Islands,TRUE
+flk,Falkland Islands (Malvinas),TRUE
+fji,Fiji,TRUE
+fin,Finland,TRUE
+ala,Åland Islands,TRUE
+fra,France,TRUE
+guf,French Guiana,TRUE
+pyf,French Polynesia,TRUE
+dji,Djibouti,TRUE
+gab,Gabon,TRUE
+gmb,Gambia,TRUE
+geo,Georgia,TRUE
+deu,Germany,TRUE
+gha,Ghana,TRUE
+gib,Gibraltar,TRUE
+kir,Kiribati,TRUE
+grc,Greece,TRUE
+grl,Greenland,TRUE
+grd,Grenada,TRUE
+glp,Guadeloupe,TRUE
+gum,Guam,TRUE
+gtm,Guatemala,TRUE
+gin,Guinea,TRUE
+guy,Guyana,TRUE
+hti,Haiti,TRUE
+vat,Holy See,TRUE
+hnd,Honduras,TRUE
+hkg,"China, Hong Kong Special Administrative Region",TRUE
+hun,Hungary,TRUE
+isl,Iceland,TRUE
+ind,India,TRUE
+idn,Indonesia,TRUE
+irn,Iran (Islamic Republic of),TRUE
+irq,Iraq,TRUE
+irl,Ireland,TRUE
+isr,Israel,TRUE
+ita,Italy,TRUE
+civ,Côte d'Ivoire,TRUE
+jam,Jamaica,TRUE
+jpn,Japan,TRUE
+jor,Jordan,TRUE
+kaz,Kazakhstan,TRUE
+ken,Kenya,TRUE
+khm,Cambodia,TRUE
+kor,Republic of Korea,TRUE
+prk,Democratic People's Republic of Korea,TRUE
+kwt,Kuwait,TRUE
+kgz,Kyrgyzstan,TRUE
+lao,Lao People's Democratic Republic,TRUE
+lva,Latvia,TRUE
+lbn,Lebanon,TRUE
+lso,Lesotho,TRUE
+lbr,Liberia,TRUE
+lby,Libya,TRUE
+lie,Liechtenstein,TRUE
+ltu,Lithuania,TRUE
+lux,Luxembourg,TRUE
+mac,"China, Macao Special Administrative Region",TRUE
+mkd,North Macedonia,TRUE
+mdg,Madagascar,TRUE
+mwi,Malawi,TRUE
+mys,Malaysia,TRUE
+mdv,Maldives,TRUE
+mli,Mali,TRUE
+mlt,Malta,TRUE
+mtq,Martinique,TRUE
+mrt,Mauritania,TRUE
+mus,Mauritius,TRUE
+mex,Mexico,TRUE
+fsm,Micronesia (Federated States of),TRUE
+mco,Monaco,TRUE
+mng,Mongolia,TRUE
+mne,Montenegro,TRUE
+msr,Montserrat,TRUE
+mar,Morocco,TRUE
+moz,Mozambique,TRUE
+mnp,Northern Mariana Islands,TRUE
+nam,Namibia,TRUE
+nru,Nauru,TRUE
+npl,Nepal,TRUE
+nld,Netherlands,TRUE
+cuw,Curaçao,TRUE
+ant,Netherlands Antilles,TRUE
+sxm,Sint Maarten (Dutch part),TRUE
+ncl,New Caledonia,TRUE
+vut,Vanuatu,TRUE
+nzl,New Zealand,TRUE
+nic,Nicaragua,TRUE
+ner,Niger,TRUE
+nga,Nigeria,TRUE
+niu,Niue,TRUE
+nfk,Norfolk Island,TRUE
+nor,Norway,TRUE
+omn,Oman,TRUE
+mhl,Marshall Islands,TRUE
+pak,Pakistan,TRUE
+pse,Palestine,TRUE
+pan,Panama,TRUE
+png,Papua New Guinea,TRUE
+pry,Paraguay,TRUE
+per,Peru,TRUE
+phl,Philippines,TRUE
+pcn,Pitcairn,TRUE
+pol,Poland,TRUE
+prt,Portugal,TRUE
+mda,Republic of Moldova,TRUE
+gnb,Guinea-Bissau,TRUE
+tls,Timor-Leste,TRUE
+pri,Puerto Rico,TRUE
+qat,Qatar,TRUE
+reu,Réunion,TRUE
+rou,Romania,TRUE
+rus,Russian Federation,TRUE
+rwa,Rwanda,TRUE
+blm,Saint-Barthélemy,TRUE
+shn,Saint Helena,TRUE
+kna,Saint Kitts and Nevis,TRUE
+lca,Saint Lucia,TRUE
+maf,Saint-Martin (French part),TRUE
+spm,Saint Pierre and Miquelon,TRUE
+vct,Saint Vincent and the Grenadines,TRUE
+svk,Slovakia,TRUE
+smr,San Marino,TRUE
+svn,Slovenia,TRUE
+stp,Sao Tome and Principe,TRUE
+sau,Saudi Arabia,TRUE
+sen,Senegal,TRUE
+srb,Serbia,TRUE
+syc,Seychelles,TRUE
+sle,Sierra Leone,TRUE
+sgp,Singapore,TRUE
+som,Somalia,TRUE
+zaf,South Africa,TRUE
+zwe,Zimbabwe,TRUE
+esp,Spain,TRUE
+ssd,South Sudan,TRUE
+sdn,Sudan,TRUE
+esh,Western Sahara,TRUE
+lka,Sri Lanka,TRUE
+xdn,Sudan (pre-secession),TRUE
+sur,Suriname,TRUE
+sjm,Svalbard and Jan Mayen Islands,TRUE
+swz,Eswatini,TRUE
+swe,Sweden,TRUE
+che,Switzerland,TRUE
+syr,Syrian Arab Republic,TRUE
+tjk,Tajikistan,TRUE
+tza,United Republic of Tanzania,TRUE
+tha,Thailand,TRUE
+tgo,Togo,TRUE
+tkl,Tokelau,TRUE
+ton,Tonga,TRUE
+tuv,Tuvalu,TRUE
+tto,Trinidad and Tobago,TRUE
+tun,Tunisia,TRUE
+tur,Turkey,TRUE
+tkm,Turkmenistan,TRUE
+tca,Turks and Caicos Islands,TRUE
+uga,Uganda,TRUE
+blr,Belarus,TRUE
+ukr,Ukraine,TRUE
+are,United Arab Emirates,TRUE
+gbr,United Kingdom of Great Britain and Northern Ireland,TRUE
+zza,Channel Islands,TRUE
+ggy,Guernsey,TRUE
+jey,Jersey,TRUE
+imn,Isle of Man,TRUE
+usa,United States of America,TRUE
+bfa,Burkina Faso,TRUE
+ury,Uruguay,TRUE
+uzb,Uzbekistan,TRUE
+ven,Venezuela (Bolivarian Republic of),TRUE
+vnm,Viet Nam,TRUE
+vgb,British Virgin Islands,TRUE
+vir,United States Virgin Islands,TRUE
+wlf,Wallis and Futuna Islands,TRUE
+wsm,Samoa,TRUE
+yem,Yemen,TRUE
+cod,Democratic Republic of the Congo,TRUE
+zmb,Zambia,TRUE
