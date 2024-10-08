@@ -165,17 +165,34 @@ def create_discrete_concepts():
     Creates a DataFrame for discrete concepts.
     """
     data = {
-        "concept": ["name", "year", "country", "domain", "global", "geo"],
-        "name": ["Name", "Year", "Country", "Domain", "World", "Geographic locations"],
+        "concept": [
+            "name",
+            "year",
+            "country",
+            "domain",
+            "global",
+            "income_group",
+            "geo",
+        ],
+        "name": [
+            "Name",
+            "Year",
+            "Country",
+            "Domain",
+            "World",
+            "World Bank 4 Income Groups",
+            "Geographic locations",
+        ],
         "concept_type": [
             "string",
             "time",
             "entity_set",
             "string",
             "entity_set",
+            "entity_set",
             "entity_domain",
         ],
-        "domain": ["", "", "geo", "", "geo", ""],
+        "domain": ["", "", "geo", "", "geo", "geo", ""],
     }
     return pd.DataFrame(data)
 
