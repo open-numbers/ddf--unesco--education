@@ -9,6 +9,13 @@ OFST_NATIONAL_PATH = "../source/ofst_national.csv"
 
 OFST_INDICATORS = ["ofst_1_cp", "ofst_1_m_cp", "ofst_1_f_cp"]
 
+INCOME_GROUPS = {
+    "WB: High income (July 2024)": "high_income",
+    "WB: Low income (July 2024)": "low_income",
+    "WB: Lower middle income (July 2024)": "lower_middle_income",
+    "WB: Upper middle income (July 2024)": "upper_middle_income",
+}
+
 
 def extract_and_load_data():
     """
@@ -73,6 +80,36 @@ def process_global_data(df):
         processed_data[processed_indicator_id] = group
 
     return processed_data
+
+
+def process_income_group_data(df):
+    """
+    Process income group data from the SDG_DATA_REGIONAL.csv file.
+    """
+    income_group_df = df[df["region_id"].isin(INCOME_GROUPS.keys())]
+    processed_data = {}
+
+    for indicator_id, group in income_group_df.groupby("indicator_id"):
+        processed_indicator_id = indicator_id.lower().replace(".", "_")
+        group = group[["region_id", "year", "value"]].copy()
+        group["income_group"] = group["region_id"].map(INCOME_GROUPS)
+        group = group.drop(columns=["region_id"])
+        group.rename(columns={"value": processed_indicator_id}, inplace=True)
+        processed_data[processed_indicator_id] = group
+
+    return processed_data
+
+
+def create_income_group_entity():
+    """
+    Creates a DataFrame for income group entities.
+    """
+    data = {
+        "income_group": list(INCOME_GROUPS.values()),
+        "name": [name.replace("_", " ").title() for name in INCOME_GROUPS.values()],
+        "is--income_group": ["TRUE"] * len(INCOME_GROUPS),
+    }
+    return pd.DataFrame(data)
 
 
 def process_country_id(country_df):
@@ -227,6 +264,7 @@ if __name__ == "__main__":
     # create datapoints output dir if not exists
     os.makedirs(os.path.join(OUTPUT_DIR, "national_datapoints"), exist_ok=True)
     os.makedirs(os.path.join(OUTPUT_DIR, "global_datapoints"), exist_ok=True)
+    os.makedirs(os.path.join(OUTPUT_DIR, "income_group_datapoints"), exist_ok=True)
 
     # Extract and load data
     country_df, national_data_df, regional_data_df, label_df = extract_and_load_data()
@@ -234,6 +272,7 @@ if __name__ == "__main__":
     # Process data
     processed_national = process_national_data(national_data_df)
     processed_global = process_global_data(regional_data_df)
+    processed_income_group = process_income_group_data(regional_data_df)
     processed_country = process_country_id(country_df)
     processed_concept_continuous = process_concept(label_df)
     processed_concept_discrete = create_discrete_concepts()
@@ -246,6 +285,9 @@ if __name__ == "__main__":
 
     # Save global entity
     save_dataframe(create_global_entity(), "ddf--entities--geo--global.csv")
+
+    # Save income group entity
+    save_dataframe(create_income_group_entity(), "ddf--entities--geo--income_group.csv")
 
     # Process OFST concepts
     ofst_concepts = create_ofst_concepts()
@@ -288,6 +330,18 @@ if __name__ == "__main__":
             world_skipped_indicators.append(indicator_id)
             print(f"Skipped indicator not found in label data: {indicator_id}")
 
+    # Save processed income group data
+    income_group_skipped_indicators = []
+    income_group_saved_indicators = []
+    for indicator_id, df in processed_income_group.items():
+        if indicator_id in valid_indicators:
+            filename = f"income_group_datapoints/ddf--datapoints--{indicator_id}--by--income_group--year.csv"
+            save_dataframe(df, filename)
+            income_group_saved_indicators.append(indicator_id)
+        else:
+            income_group_skipped_indicators.append(indicator_id)
+            print(f"Skipped indicator not found in label data: {indicator_id}")
+
     # Print summary statistics
     print("\nSummary:")
     print(
@@ -295,6 +349,9 @@ if __name__ == "__main__":
     )
     print(
         f"Skipped {len(world_skipped_indicators)} world indicators not found in label data."
+    )
+    print(
+        f"Skipped {len(income_group_skipped_indicators)} income group indicators not found in label data."
     )
 
     # now check ofst datapoints
