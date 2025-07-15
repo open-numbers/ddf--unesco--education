@@ -4,10 +4,13 @@ import os
 
 ZIP_PATH = "../source/SDG.zip"
 OUTPUT_DIR = "../../"
-OFST_GLOBAL_PATH = "../source/ofst_global.csv"
-OFST_NATIONAL_PATH = "../source/ofst_national.csv"
 
 OFST_INDICATORS = ["ofst_1_cp", "ofst_1_m_cp", "ofst_1_f_cp"]
+OFST_FILE_MAPPING = {
+    "ofst_1_cp": "../source/ofst_1_cp.csv",
+    "ofst_1_m_cp": "../source/ofst_1_m_cp.csv",
+    "ofst_1_f_cp": "../source/ofst_1_f_cp.csv",
+}
 
 INCOME_GROUPS = {
     "WB: High income (July 2024)": "high_income",
@@ -34,6 +37,7 @@ def extract_and_load_data():
         for csv_file in csv_files:
             with zip_ref.open(csv_file) as file:
                 df = pd.read_csv(file)
+                df.columns = df.columns.str.lower()
                 dfs.append(df)
 
     return tuple(dfs)
@@ -222,40 +226,54 @@ def save_dataframe(df, filename):
     print(f"Saved: {output_path}")
 
 
-def process_ofst_data(file_path, is_global=False):
+def process_ofst_data():
     """
-    Process OFST data from CSV file.
+    Process OFST data from individual CSV files.
+    Returns separate dictionaries for national, global, and income group data.
     """
-    df = pd.read_csv(file_path)
-    processed_data = {}
+    national_data = {}
+    global_data = {}
+    income_group_data = {}
 
-    for indicator in OFST_INDICATORS:
-        # Convert indicator to uppercase, as in the source file
-        source_indicator = indicator.upper()
+    for indicator, file_path in OFST_FILE_MAPPING.items():
+        df = pd.read_csv(file_path)
 
-        indicator_df = df[df["NATMON_IND"] == source_indicator].copy()
-        if is_global:
-            indicator_df = indicator_df[["Time", "Value"]].rename(
-                columns={"Time": "year", "Value": indicator}
-            )
-            indicator_df["global"] = "world"
-        else:
-            indicator_df = indicator_df[["LOCATION", "Time", "Value"]].rename(
-                columns={"LOCATION": "country", "Time": "year", "Value": indicator}
-            )
-            indicator_df["country"] = indicator_df["country"].str.lower()
+        # Process national data (geoUnit without colon)
+        national_df = df[~df["geoUnit"].str.contains(":", na=False)].copy()
+        national_df = national_df.loc[["geoUnit", "year", "value"]].rename(
+            columns={"geoUnit": "country", "value": indicator}
+        )
+        national_df["country"] = national_df["country"].str.lower()
+        national_data[indicator] = national_df
 
-        processed_data[indicator] = indicator_df
+        # Process global data (SDG: World)
+        global_df = df[df["geoUnit"] == "SDG: World"].copy()
+        global_df = global_df.loc[["year", "value"]].rename(columns={"value": indicator})
+        global_df["global"] = "world"
+        global_data[indicator] = global_df
 
-    return processed_data
+        # Process income group data (WB: income groups)
+        income_group_df = df[df["geoUnit"].isin(list(INCOME_GROUPS.keys()))].copy()
+        income_group_df = income_group_df.loc[["geoUnit", "year", "value"]].rename(
+            columns={"geoUnit": "region_id", "value": indicator}
+        )
+        income_group_df["income_group"] = income_group_df["region_id"].map(
+            INCOME_GROUPS
+        )
+        income_group_df = income_group_df.drop(columns=["region_id"])
+        income_group_data[indicator] = income_group_df
+
+    return national_data, global_data, income_group_data
 
 
 def check_and_create_ofst_datapoints():
     """
     Check if OFST datapoints exist, and create them if they don't.
     """
+    # Process all OFST data
+    national_data, global_data, income_group_data = process_ofst_data()
+
     # Process national data
-    national_data = process_ofst_data(OFST_NATIONAL_PATH)
     for indicator, df in national_data.items():
         filename = (
             f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
@@ -266,7 +284,6 @@ def check_and_create_ofst_datapoints():
             print(f"Created missing national datapoints for {indicator}")
 
     # Process global data
-    global_data = process_ofst_data(OFST_GLOBAL_PATH, is_global=True)
     for indicator, df in global_data.items():
         filename = (
             f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
@@ -275,6 +292,14 @@ def check_and_create_ofst_datapoints():
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
             print(f"Created missing global datapoints for {indicator}")
+
+    # Process income group data
+    for indicator, df in income_group_data.items():
+        filename = f"income_group_datapoints/ddf--datapoints--{indicator}--by--income_group--year.csv"
+        full_path = os.path.join(OUTPUT_DIR, filename)
+        if not os.path.exists(full_path):
+            save_dataframe(df, filename)
+            print(f"Created missing income group datapoints for {indicator}")
 
 
 if __name__ == "__main__":
