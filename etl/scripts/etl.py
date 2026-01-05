@@ -13,10 +13,10 @@ OFST_FILE_MAPPING = {
 }
 
 INCOME_GROUPS = {
-    "WB: High income (July 2024)": "high_income",
-    "WB: Low income (July 2024)": "low_income",
-    "WB: Lower middle income (July 2024)": "lower_middle_income",
-    "WB: Upper middle income (July 2024)": "upper_middle_income",
+    "WB: High income (July 2025)": "high_income",
+    "WB: Low income (July 2025)": "low_income",
+    "WB: Lower middle income (July 2025)": "lower_middle_income",
+    "WB: Upper middle income (July 2025)": "upper_middle_income",
 }
 
 
@@ -122,9 +122,7 @@ def process_country_id(country_df):
     renaming the 'country_name_en' column to 'name', and 'country_id' to 'country'.
     """
     country_df.columns = country_df.columns.str.lower()
-    country_df.rename(
-        columns={"country_name_en": "name", "country_id": "country"}, inplace=True
-    )
+    country_df.rename(columns={"country_name_en": "name", "country_id": "country"}, inplace=True)
     country_df["country"] = country_df["country"].str.lower()
     country_df["is--country"] = "TRUE"
     return country_df
@@ -148,9 +146,7 @@ def process_concept(label_df):
     label_df.columns = label_df.columns.str.lower()
 
     # Rename columns
-    label_df.rename(
-        columns={"indicator_id": "concept", "indicator_label_en": "name"}, inplace=True
-    )
+    label_df.rename(columns={"indicator_id": "concept", "indicator_label_en": "name"}, inplace=True)
 
     # Add concept_type column
     label_df["concept_type"] = "measure"
@@ -257,9 +253,7 @@ def process_ofst_data():
         income_group_df = income_group_df[["geoUnit", "year", "value"]].rename(
             columns={"geoUnit": "region_id", "value": indicator}
         )
-        income_group_df["income_group"] = income_group_df["region_id"].map(
-            INCOME_GROUPS
-        )
+        income_group_df["income_group"] = income_group_df["region_id"].map(INCOME_GROUPS)
         income_group_df = income_group_df.drop(columns=["region_id"])
         income_group_data[indicator] = income_group_df
 
@@ -275,9 +269,7 @@ def check_and_create_ofst_datapoints():
 
     # Process national data
     for indicator, df in national_data.items():
-        filename = (
-            f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
-        )
+        filename = f"national_datapoints/ddf--datapoints--{indicator}--by--country--year.csv"
         full_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
@@ -285,9 +277,7 @@ def check_and_create_ofst_datapoints():
 
     # Process global data
     for indicator, df in global_data.items():
-        filename = (
-            f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
-        )
+        filename = f"global_datapoints/ddf--datapoints--{indicator}--by--global--year.csv"
         full_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
@@ -295,7 +285,9 @@ def check_and_create_ofst_datapoints():
 
     # Process income group data
     for indicator, df in income_group_data.items():
-        filename = f"income_group_datapoints/ddf--datapoints--{indicator}--by--income_group--year.csv"
+        filename = (
+            f"income_group_datapoints/ddf--datapoints--{indicator}--by--income_group--year.csv"
+        )
         full_path = os.path.join(OUTPUT_DIR, filename)
         if not os.path.exists(full_path):
             save_dataframe(df, filename)
@@ -389,9 +381,7 @@ if __name__ == "__main__":
     print(
         f"Skipped {len(national_skipped_indicators)} national indicators not found in label data."
     )
-    print(
-        f"Skipped {len(world_skipped_indicators)} world indicators not found in label data."
-    )
+    print(f"Skipped {len(world_skipped_indicators)} world indicators not found in label data.")
     print(
         f"Skipped {len(income_group_skipped_indicators)} income group indicators not found in label data."
     )
