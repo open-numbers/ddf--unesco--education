@@ -240,7 +240,7 @@ def process_ofst_data():
 
         # Process national data (geoUnit without colon)
         national_df = df[~df["geoUnit"].str.contains(":", na=False)].copy()
-        national_df = national_df.loc[["geoUnit", "year", "value"]].rename(
+        national_df = national_df[["geoUnit", "year", "value"]].rename(
             columns={"geoUnit": "country", "value": indicator}
         )
         national_df["country"] = national_df["country"].str.lower()
@@ -248,13 +248,13 @@ def process_ofst_data():
 
         # Process global data (SDG: World)
         global_df = df[df["geoUnit"] == "SDG: World"].copy()
-        global_df = global_df.loc[["year", "value"]].rename(columns={"value": indicator})
+        global_df = global_df[["year", "value"]].rename(columns={"value": indicator})
         global_df["global"] = "world"
         global_data[indicator] = global_df
 
         # Process income group data (WB: income groups)
         income_group_df = df[df["geoUnit"].isin(list(INCOME_GROUPS.keys()))].copy()
-        income_group_df = income_group_df.loc[["geoUnit", "year", "value"]].rename(
+        income_group_df = income_group_df[["geoUnit", "year", "value"]].rename(
             columns={"geoUnit": "region_id", "value": indicator}
         )
         income_group_df["income_group"] = income_group_df["region_id"].map(
