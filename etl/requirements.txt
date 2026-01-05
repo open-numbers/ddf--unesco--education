@@ -1,2 +1,3 @@
-pandas<3
-requests<3
+ddf_utils>=1.0.18
+requests
+pandas
