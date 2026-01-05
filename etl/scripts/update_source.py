@@ -5,22 +5,29 @@ import zipfile
 import io
 
 # Global variables
-LAST_UPDATE = "2025-02-25"  # the last update date for current dataset.
+LAST_UPDATE = "2025-09-17"  # the last update date for current dataset.
 VERSION_API_URL = "https://api.uis.unesco.org/api/public/versions/default"
 
 # OFST indicator configurations
 OFST_INDICATORS = {
     "OFST.1.CP": "ofst_1_cp.csv",
     "OFST.1.M.CP": "ofst_1_m_cp.csv",
-    "OFST.1.F.CP": "ofst_1_f_cp.csv"
+    "OFST.1.F.CP": "ofst_1_f_cp.csv",
 }
 
 
 def parse_date(date_string):
     """
     Parse a date string into a datetime object.
+    Supports formats: %Y-%m-%d (e.g., 2025-02-25) and %m/%d/%Y (e.g., 9/17/2025)
     """
-    return datetime.strptime(date_string, "%Y-%m-%d")
+    formats = ["%Y-%m-%d", "%m/%d/%Y"]
+    for fmt in formats:
+        try:
+            return datetime.strptime(date_string, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Date string '{date_string}' does not match any supported format: {formats}")
 
 
 def get_api_version_info():
@@ -39,9 +46,9 @@ def get_api_version_info():
     api_last_update = parse_date(education_theme["lastUpdate"])
     last_update = parse_date(LAST_UPDATE)
 
-    # Format the date for SDG.zip URL (e.g., "2025-02-23" -> "022025")
-    month_year = api_last_update.strftime("%m%Y")
-    sdg_url = f"https://uis.unesco.org/sites/default/files/documents/bdds/{month_year}/SDG.zip"
+    # Format the date for SDG.zip URL (e.g., "2025-09-17" -> "202509")
+    month_year = api_last_update.strftime("%Y%m")
+    sdg_url = f"https://download.uis.unesco.org/bdds/{month_year}/SDG.zip"
 
     if api_last_update > last_update:
         print(f"New version available. Last update date from API: {api_last_update}")

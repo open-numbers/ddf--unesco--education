@@ -344,18 +344,18 @@ cr_3_urb_q5_gpia,"Completion rate, upper secondary education, urban, richest qui
 cr_3_urb_q5_m,"Completion rate, upper secondary education, urban, richest quintile, male (%)",measure
 cr_3_urb_wpia,"Completion rate, upper secondary education, urban, adjusted wealth parity index (WPIA)",measure
 cr_3_wpia,"Completion rate, upper secondary education, adjusted wealth parity index (WPIA)",measure
-cr_mod_1,"Completion rate, primary education, both sexes (%), (modelled data)",measure
-cr_mod_1_f,"Completion rate, primary education, female (%), (modelled data)",measure
-cr_mod_1_gpia,"Completion rate, primary education, adjusted gender parity index (GPIA), (modelled data)",measure
-cr_mod_1_m,"Completion rate, primary education, male (%), (modelled data)",measure
-cr_mod_2,"Completion rate, lower secondary education, both sexes (%), (modelled data)",measure
-cr_mod_2_f,"Completion rate, lower secondary education, female (%), (modelled data)",measure
-cr_mod_2_gpia,"Completion rate, lower secondary education, adjusted gender parity index (GPIA), (modelled data)",measure
-cr_mod_2_m,"Completion rate, lower secondary education, male (%), (modelled data)",measure
-cr_mod_3,"Completion rate, upper secondary education, both sexes (%), (modelled data)",measure
-cr_mod_3_f,"Completion rate, upper secondary education, female (%), (modelled data)",measure
-cr_mod_3_gpia,"Completion rate, upper secondary education, adjusted gender parity index (GPIA), (modelled data)",measure
-cr_mod_3_m,"Completion rate, upper secondary education, male (%), (modelled data)",measure
+cr_mod_1,"Completion rate, primary education, both sexes (modelled data) (%)",measure
+cr_mod_1_f,"Completion rate, primary education, female (modelled data) (%)",measure
+cr_mod_1_gpia,"Completion rate, primary education, adjusted gender parity index (GPIA) (modelled data)",measure
+cr_mod_1_m,"Completion rate, primary education, male (modelled data) (%)",measure
+cr_mod_2,"Completion rate, lower secondary education, both sexes (modelled data) (%)",measure
+cr_mod_2_f,"Completion rate, lower secondary education, female (modelled data) (%)",measure
+cr_mod_2_gpia,"Completion rate, lower secondary education, adjusted gender parity index (GPIA) (modelled data)",measure
+cr_mod_2_m,"Completion rate, lower secondary education, male (modelled data) (%)",measure
+cr_mod_3,"Completion rate, upper secondary education, both sexes (modelled data) (%)",measure
+cr_mod_3_f,"Completion rate, upper secondary education, female (modelled data) (%)",measure
+cr_mod_3_gpia,"Completion rate, upper secondary education, adjusted gender parity index (GPIA) (modelled data)",measure
+cr_mod_3_m,"Completion rate, upper secondary education, male (modelled data) (%)",measure
 dl,Percentage of youth/adults who have achieved at least a minimum level of proficiency in digital literacy skills (%),measure
 dl_f,"Percentage of youth/adults who have achieved at least a minimum level of proficiency in digital literacy skills, female (%)",measure
 dl_gpia,"Percentage of youth/adults who have achieved at least a minimum level of proficiency in digital literacy skills, adjusted gender parity index (GPIA)",measure
@@ -634,13 +634,19 @@ fhlangilp_primary_wpia,"Percentage of students at the end of primary education w
 gar_5t8,"Gross attendance ratio for tertiary education, both sexes (%)",measure
 gar_5t8_f,"Gross attendance ratio for tertiary education, female (%)",measure
 gar_5t8_f_lpia,"Gross attendance ratio for tertiary education, female, adjusted location parity index (LPIA)",measure
+gar_5t8_f_wpia,"Gross attendance ratio for tertiary education, female, adjusted wealth parity index (WPIA)",measure
 gar_5t8_gpia,"Gross attendance ratio for tertiary education, adjusted gender parity index (GPIA)",measure
 gar_5t8_lpia,"Gross attendance ratio for tertiary education, adjusted location parity index (LPIA)",measure
 gar_5t8_m,"Gross attendance ratio for tertiary education, male (%)",measure
 gar_5t8_m_lpia,"Gross attendance ratio for tertiary education, male, adjusted location parity index (LPIA)",measure
+gar_5t8_m_wpia,"Gross attendance ratio for tertiary education, male, adjusted wealth parity index (WPIA)",measure
 gar_5t8_q1,"Gross attendance ratio for tertiary education, poorest quintile, both sexes (%)",measure
 gar_5t8_q1_f,"Gross attendance ratio for tertiary education, poorest quintile, female (%)",measure
+gar_5t8_q1_f_lpia,"Gross attendance ratio for tertiary education, poorest quintile, female, adjusted location parity index (LPIA)",measure
+gar_5t8_q1_gpia,"Gross attendance ratio for tertiary education, poorest quintile, adjusted gender parity index (GPIA)",measure
+gar_5t8_q1_lpia,"Gross attendance ratio for tertiary education, poorest quintile, adjusted location parity index (LPIA)",measure
 gar_5t8_q1_m,"Gross attendance ratio for tertiary education, poorest quintile, male (%)",measure
+gar_5t8_q1_m_lpia,"Gross attendance ratio for tertiary education, poorest quintile, male, adjusted location parity index (LPIA)",measure
 gar_5t8_q2,"Gross attendance ratio for tertiary education, second quintile, both sexes (%)",measure
 gar_5t8_q2_f,"Gross attendance ratio for tertiary education, second quintile, female (%)",measure
 gar_5t8_q2_f_lpia,"Gross attendance ratio for tertiary education, second quintile, female, adjusted location parity index (LPIA)",measure
@@ -664,16 +670,20 @@ gar_5t8_q4_m,"Gross attendance ratio for tertiary education, fourth quintile, ma
 gar_5t8_q4_m_lpia,"Gross attendance ratio for tertiary education, fourth quintile, male, adjusted location parity index (LPIA)",measure
 gar_5t8_q5,"Gross attendance ratio for tertiary education, richest quintile, both sexes (%)",measure
 gar_5t8_q5_f,"Gross attendance ratio for tertiary education, richest quintile, female (%)",measure
+gar_5t8_q5_f_lpia,"Gross attendance ratio for tertiary education, richest quintile, female, adjusted location parity index (LPIA)",measure
 gar_5t8_q5_gpia,"Gross attendance ratio for tertiary education, richest quintile, adjusted gender parity index (GPIA)",measure
 gar_5t8_q5_lpia,"Gross attendance ratio for tertiary education, richest quintile, adjusted location parity index (LPIA)",measure
 gar_5t8_q5_m,"Gross attendance ratio for tertiary education, richest quintile, male (%)",measure
 gar_5t8_q5_m_lpia,"Gross attendance ratio for tertiary education, richest quintile, male, adjusted location parity index (LPIA)",measure
 gar_5t8_rur,"Gross attendance ratio for tertiary education, rural, both sexes (%)",measure
 gar_5t8_rur_f,"Gross attendance ratio for tertiary education, rural, female (%)",measure
+gar_5t8_rur_f_wpia,"Gross attendance ratio for tertiary education, rural, female, adjusted wealth parity index (WPIA)",measure
 gar_5t8_rur_gpia,"Gross attendance ratio for tertiary education, rural, adjusted gender parity index (GPIA)",measure
 gar_5t8_rur_m,"Gross attendance ratio for tertiary education, rural, male (%)",measure
+gar_5t8_rur_m_wpia,"Gross attendance ratio for tertiary education, rural, male, adjusted wealth parity index (WPIA)",measure
 gar_5t8_rur_q1,"Gross attendance ratio for tertiary education, rural, poorest quintile, both sexes (%)",measure
 gar_5t8_rur_q1_f,"Gross attendance ratio for tertiary education, rural, poorest quintile, female (%)",measure
+gar_5t8_rur_q1_gpia,"Gross attendance ratio for tertiary education, rural, poorest quintile, adjusted gender parity index (GPIA)",measure
 gar_5t8_rur_q1_m,"Gross attendance ratio for tertiary education, rural, poorest quintile, male (%)",measure
 gar_5t8_rur_q2,"Gross attendance ratio for tertiary education, rural, second quintile, both sexes (%)",measure
 gar_5t8_rur_q2_f,"Gross attendance ratio for tertiary education, rural, second quintile, female (%)",measure
@@ -689,14 +699,18 @@ gar_5t8_rur_q4_gpia,"Gross attendance ratio for tertiary education, rural, fourt
 gar_5t8_rur_q4_m,"Gross attendance ratio for tertiary education, rural, fourth quintile, male (%)",measure
 gar_5t8_rur_q5,"Gross attendance ratio for tertiary education, rural, richest quintile, both sexes (%)",measure
 gar_5t8_rur_q5_f,"Gross attendance ratio for tertiary education, rural, richest quintile, female (%)",measure
+gar_5t8_rur_q5_gpia,"Gross attendance ratio for tertiary education, rural, richest quintile, adjusted gender parity index (GPIA)",measure
 gar_5t8_rur_q5_m,"Gross attendance ratio for tertiary education, rural, richest quintile, male (%)",measure
 gar_5t8_rur_wpia,"Gross attendance ratio for tertiary education, rural, adjusted wealth parity index (WPIA)",measure
 gar_5t8_urb,"Gross attendance ratio for tertiary education, urban, both sexes (%)",measure
 gar_5t8_urb_f,"Gross attendance ratio for tertiary education, urban, female (%)",measure
+gar_5t8_urb_f_wpia,"Gross attendance ratio for tertiary education, urban, female, adjusted wealth parity index (WPIA)",measure
 gar_5t8_urb_gpia,"Gross attendance ratio for tertiary education, urban, adjusted gender parity index (GPIA)",measure
 gar_5t8_urb_m,"Gross attendance ratio for tertiary education, urban, male (%)",measure
+gar_5t8_urb_m_wpia,"Gross attendance ratio for tertiary education, urban, male, adjusted wealth parity index (WPIA)",measure
 gar_5t8_urb_q1,"Gross attendance ratio for tertiary education, urban, poorest quintile, both sexes (%)",measure
 gar_5t8_urb_q1_f,"Gross attendance ratio for tertiary education, urban, poorest quintile, female (%)",measure
+gar_5t8_urb_q1_gpia,"Gross attendance ratio for tertiary education, urban, poorest quintile, adjusted gender parity index (GPIA)",measure
 gar_5t8_urb_q1_m,"Gross attendance ratio for tertiary education, urban, poorest quintile, male (%)",measure
 gar_5t8_urb_q2,"Gross attendance ratio for tertiary education, urban, second quintile, both sexes (%)",measure
 gar_5t8_urb_q2_f,"Gross attendance ratio for tertiary education, urban, second quintile, female (%)",measure
@@ -716,7 +730,7 @@ gar_5t8_urb_q5_gpia,"Gross attendance ratio for tertiary education, urban, riche
 gar_5t8_urb_q5_m,"Gross attendance ratio for tertiary education, urban, richest quintile, male (%)",measure
 gar_5t8_urb_wpia,"Gross attendance ratio for tertiary education, urban, adjusted wealth parity index (WPIA)",measure
 gar_5t8_wpia,"Gross attendance ratio for tertiary education, adjusted wealth parity index (WPIA)",measure
-gcs_curricula,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,measure
+gcs_curricula,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in curricula,measure
 gcs_lowersec,"Percentage of students in lower secondary showing adequate understanding of issues relating to global citizenship and sustainability, both sexes (%)",measure
 gcs_lowersec_cog,"Percentage of students in lower secondary showing adequate understanding of issues relating to global citizenship and sustainability - Cognitive Dimension, both sexes (%)",measure
 gcs_lowersec_cog_f,"Percentage of students in lower secondary showing adequate understanding of issues relating to global citizenship and sustainability - Cognitive Dimension, female (%)",measure
@@ -808,8 +822,8 @@ gcs_lowersec_rural,"Percentage of students in lower secondary showing adequate u
 gcs_lowersec_urban,"Percentage of students in lower secondary showing adequate understanding of issues relating to global citizenship and sustainability, urban (%)",measure
 gcs_lowersec_wpia,"Percentage of students in lower secondary showing adequate understanding of issues relating to global citizenship and sustainability, adjusted wealth parity index (WPIA)",measure
 gcs_natledupol,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,measure
-gcs_studentassessment,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,measure
-gcs_teachedu,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in national education policies,measure
+gcs_studentassessment,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in student assessment,measure
+gcs_teachedu,Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in teacher education,measure
 ger_5t8,"Gross enrolment ratio for tertiary education, both sexes (%)",measure
 ger_5t8_f,"Gross enrolment ratio for tertiary education, female (%)",measure
 ger_5t8_gpia,"Gross enrolment ratio for tertiary education, adjusted gender parity index (GPIA)",measure
@@ -1282,33 +1296,33 @@ ictskillonlsft_urb_m,"Proportion of youth and adults that used software run over
 ictskillpcpr,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), both sexes (%)",measure
 ictskillpcpr_ag15t24,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 15-24 years old, both sexes (%)",measure
 ictskillpcpr_ag15t24_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 15-24 years old, female (%)",measure
-ictskillpcpr_ag15t24_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_ag15t24_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 15-24 years old, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_ag15t24_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 15-24 years old, male (%)",measure
 ictskillpcpr_ag25t74,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 25-74 years old, both sexes (%)",measure
 ictskillpcpr_ag25t74_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 25-74 years old, female (%)",measure
-ictskillpcpr_ag25t74_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_ag25t74_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 25-74 years old, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_ag25t74_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 25-74 years old, male (%)",measure
 ictskillpcpr_ag75orover,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 75 years old or over, both sexes (%)",measure
 ictskillpcpr_ag75orover_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 75 years old or over, female (%)",measure
-ictskillpcpr_ag75orover_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_ag75orover_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 75 years old or over, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_ag75orover_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), 75 years old or over, male (%)",measure
 ictskillpcpr_agunder15y,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), under 15 years old, both sexes (%)",measure
 ictskillpcpr_agunder15y_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), under 15 years old, female (%)",measure
-ictskillpcpr_agunder15y_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_agunder15y_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), under 15 years old, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_agunder15y_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), under 15 years old, male (%)",measure
 ictskillpcpr_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), female (%)",measure
-ictskillpcpr_f_lpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), female, adjusted location parity index (LPIA)",measure
-ictskillpcpr_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), adjusted gender parity index (GPIA)",measure
-ictskillpcpr_lpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), adjusted location parity index (LPIA)",measure
+ictskillpcpr_f_lpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), female, adjusted location parity index (LPIA)",measure
+ictskillpcpr_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), adjusted gender parity index (GPIA)",measure
+ictskillpcpr_lpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), adjusted location parity index (LPIA)",measure
 ictskillpcpr_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), male (%)",measure
-ictskillpcpr_m_lpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), male, adjusted location parity index (LPIA)",measure
+ictskillpcpr_m_lpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), male, adjusted location parity index (LPIA)",measure
 ictskillpcpr_rur,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), rural, both sexes (%)",measure
 ictskillpcpr_rur_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), rural, female (%)",measure
-ictskillpcpr_rur_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), rural, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_rur_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), rural, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_rur_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), rural, male (%)",measure
 ictskillpcpr_urb,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, both sexes (%)",measure
 ictskillpcpr_urb_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, female (%)",measure
-ictskillpcpr_urb_gpia,"Proportion of youth and adults programmed or coded in digital environments (e.g. computer software, app development), urban, adjusted gender parity index (GPIA)",measure
+ictskillpcpr_urb_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_urb_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, male (%)",measure
 ictskillprvcy,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), both sexes (%)",measure
 ictskillprvcy_ag15t24,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), 15-24 years old, both sexes (%)",measure
@@ -1762,11 +1776,11 @@ nara_agm1_q1_m,"Adjusted net attendance rate, one year before the official prima
 nara_agm1_q1_m_lpia,"Adjusted net attendance rate, one year before the official primary entry age, poorest quintile, male, adjusted location parity index (LPIA)",measure
 nara_agm1_q2,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, both sexes (%)",measure
 nara_agm1_q2_f,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, female (%)",measure
-nara_agm1_q2_f_lpia,"Adjusted attendance rate, one year before the official primary entry age, second quintile, female, adjusted location parity index (LPIA)",measure
+nara_agm1_q2_f_lpia,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, female, adjusted location parity index (LPIA)",measure
 nara_agm1_q2_gpia,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, adjusted gender parity index (GPIA)",measure
 nara_agm1_q2_lpia,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, adjusted location parity index (LPIA)",measure
 nara_agm1_q2_m,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, male (%)",measure
-nara_agm1_q2_m_lpia,"Adjusted attendance rate, one year before the official primary entry age, second quintile, male, adjusted location parity index (LPIA)",measure
+nara_agm1_q2_m_lpia,"Adjusted net attendance rate, one year before the official primary entry age, second quintile, male, adjusted location parity index (LPIA)",measure
 nara_agm1_q3,"Adjusted net attendance rate, one year before the official primary entry age, middle quintile, both sexes (%)",measure
 nara_agm1_q3_f,"Adjusted net attendance rate, one year before the official primary entry age, middle quintile, female (%)",measure
 nara_agm1_q3_f_lpia,"Adjusted net attendance rate, one year before the official primary entry age, middle quintile, female, adjusted location parity index (LPIA)",measure
@@ -2164,7 +2178,7 @@ rofst_3_gpia_cp,"Out-of-school rate for youth of upper secondary school age, adj
 rofst_3_m_cp,"Out-of-school rate for youth of upper secondary school age, male (%)",measure
 rofst_agm1_cp,"Out-of-school rate for children one year before the official primary entry age, both sexes (%)",measure
 rofst_agm1_f_cp,"Out-of-school rate for children one year before the official primary entry age, female (%)",measure
-rofst_agm1_gpia_cp,"Out-of-school rate for children one year before the official age, adjusted gender parity index (GPIA)",measure
+rofst_agm1_gpia_cp,"Out-of-school rate for children one year before the official primary entry age, adjusted gender parity index (GPIA)",measure
 rofst_agm1_m_cp,"Out-of-school rate for children one year before the official primary entry age, male (%)",measure
 rofst_h_1,"Out-of-school rate for children of primary school age, both sexes (household survey data) (%)",measure
 rofst_h_1_abl,"Out-of-school rate, primary education, not disabled, both sexes (household survey data) (%)",measure
@@ -2496,18 +2510,18 @@ rofst_h_3_urb_q5_gpia,"Out-of-school rate for youth of upper secondary school ag
 rofst_h_3_urb_q5_m,"Out-of-school rate for youth of upper secondary school age, urban, richest quintile, male (household survey data) (%)",measure
 rofst_h_3_urb_wpia,"Out-of-school rate for youth of upper secondary school age, urban, adjusted wealth parity index (household survey data) (WPIA)",measure
 rofst_h_3_wpia,"Out-of-school rate for youth of upper secondary school age, adjusted wealth parity index (household survey data) (WPIA)",measure
-rofst_mod_1,"Out-of-school rate for children of primary school age, both sexes (%), (modelled data)",measure
-rofst_mod_1_f,"Out-of-school rate for children of primary school age, female (%), (modelled data)",measure
-rofst_mod_1_gpia,"Out-of-school rate for children of primary school age, adjusted gender parity index (GPIA), (modelled data)",measure
-rofst_mod_1_m,"Out-of-school rate for children of primary school age, male (%), (modelled data)",measure
-rofst_mod_2,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%), (modelled data)",measure
-rofst_mod_2_f,"Out-of-school rate for adolescents of lower secondary school age, female (%), (modelled data)",measure
-rofst_mod_2_gpia,"Out-of-school rate for adolescents of lower secondary school age, adjusted gender parity index (GPIA), (modelled data)",measure
-rofst_mod_2_m,"Out-of-school rate for adolescents of lower secondary school age, male (%), (modelled data)",measure
-rofst_mod_3,"Out-of-school rate for youth of upper secondary school age, both sexes (%), (modelled data)",measure
-rofst_mod_3_f,"Out-of-school rate for youth of upper secondary school age, female (%), (modelled data)",measure
-rofst_mod_3_gpia,"Out-of-school rate for youth of upper secondary school age, adjusted gender parity index (GPIA), (modelled data)",measure
-rofst_mod_3_m,"Out-of-school rate for youth of upper secondary school age, male (%), (modelled data)",measure
+rofst_mod_1,"Out-of-school rate for children of primary school age, both sexes (modelled data) (%)",measure
+rofst_mod_1_f,"Out-of-school rate for children of primary school age, female (modelled data) (%)",measure
+rofst_mod_1_gpia,"Out-of-school rate for children of primary school age, adjusted gender parity index (GPIA) (modelled data)",measure
+rofst_mod_1_m,"Out-of-school rate for children of primary school age, male (modelled data) (%)",measure
+rofst_mod_2,"Out-of-school rate for adolescents of lower secondary school age, both sexes (modelled data) (%)",measure
+rofst_mod_2_f,"Out-of-school rate for adolescents of lower secondary school age, female (modelled data) (%)",measure
+rofst_mod_2_gpia,"Out-of-school rate for adolescents of lower secondary school age, adjusted gender parity index (GPIA) (modelled data)",measure
+rofst_mod_2_m,"Out-of-school rate for adolescents of lower secondary school age, male (modelled data) (%)",measure
+rofst_mod_3,"Out-of-school rate for youth of upper secondary school age, both sexes (modelled data) (%)",measure
+rofst_mod_3_f,"Out-of-school rate for youth of upper secondary school age, female (modelled data) (%)",measure
+rofst_mod_3_gpia,"Out-of-school rate for youth of upper secondary school age, adjusted gender parity index (GPIA) (modelled data)",measure
+rofst_mod_3_m,"Out-of-school rate for youth of upper secondary school age, male (modelled data) (%)",measure
 schbsp_1_wcomput,Proportion of primary schools with access to computers for pedagogical purposes (%),measure
 schbsp_1_welec,Proportion of primary schools with access to electricity (%),measure
 schbsp_1_whivsexed,Percentage of primary schools providing life skills-based HIV and sexuality education,measure
@@ -2564,14 +2578,14 @@ tattrr_3,"Teacher attrition rate from upper secondary education, both sexes (%)"
 tattrr_3_f,"Teacher attrition rate from upper secondary education, female (%)",measure
 tattrr_3_gpia,"Teacher attrition rate from upper secondary education, adjusted gender parity index (GPIA)",measure
 tattrr_3_m,"Teacher attrition rate from upper secondary education, male (%)",measure
-tprofd_1,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of trained, both sexes",measure
-tprofd_1_f,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of trained, female",measure
+tprofd_1,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of training, both sexes",measure
+tprofd_1_f,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of training, female",measure
 tprofd_1_gpia,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of training, adjusted gender parity index (GPIA)",measure
-tprofd_1_m,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of trained, male",measure
-tprofd_2,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of trained, both sexes",measure
-tprofd_2_f,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of trained, female",measure
+tprofd_1_m,"Percentage of teachers in primary education who received in-service training in the last 12 months by type of training, male",measure
+tprofd_2,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of training, both sexes",measure
+tprofd_2_f,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of training, female",measure
 tprofd_2_gpia,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of training, adjusted gender parity index (GPIA)",measure
-tprofd_2_m,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of trained, males",measure
+tprofd_2_m,"Percentage of teachers in lower secondary education who received in-service training in the last 12 months by type of training, males",measure
 trtp_02,"Proportion of teachers with the minimum required qualifications in pre-primary education, both sexes (%)",measure
 trtp_02_f,"Proportion of teachers with the minimum required qualifications in pre-primary education, female (%)",measure
 trtp_02_gpia,"Proportion of teachers with the minimum required qualifications in pre-primary education, adjusted gender parity index (GPIA)",measure
@@ -2603,7 +2617,8 @@ xgdp_fsgov_fshh_fsoda_ffntr,"Expenditure on education (public, households, ODA) 
 xgdp_fshh_ffntr,Initial private expenditure on education (household) as a percentage of GDP (%),measure
 xgdp_fsint_ffntr,International expenditure on education as a percentage of GDP (%),measure
 xgdp_fspe_ffntr,Initial private expenditure on education (other non-educational private entities) as a percentage of GDP (%),measure
-xgovexp_imf,Expenditure on education as a percentage of total government expenditure (%),measure
+xgovexp_imf,Expenditure on education as a percentage of total government expenditure (%) (UIS calculation),measure
+xgovexp_imfcalc,Expenditure on education as a percentage of total government expenditure (%) (IMF calculation),measure
 xunit_gdpcap_02_fsgov_ffntr,Initial government funding per pre-primary student as a percentage of GDP per capita,measure
 xunit_gdpcap_1_fsgov_ffntr,Initial government funding per primary student as a percentage of GDP per capita,measure
 xunit_gdpcap_1_fshh_ffntr,Initial household funding per primary student as a percentage of GDP per capita,measure
