@@ -5,7 +5,7 @@ import zipfile
 import io
 
 # Global variables
-LAST_UPDATE = "2025-02-25"  # the last update date for current dataset.
+LAST_UPDATE = "2025-09-17"  # the last update date for current dataset.
 VERSION_API_URL = "https://api.uis.unesco.org/api/public/versions/default"
 
 # OFST indicator configurations
