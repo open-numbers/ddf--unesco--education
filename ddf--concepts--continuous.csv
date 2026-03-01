@@ -376,6 +376,15 @@ ea_1t8_ag25t99_lpia,"Educational attainment rate, completed primary education or
 ea_1t8_ag25t99_m,"Educational attainment rate, completed primary education or higher, population 25+ years, male (%)",measure
 ea_1t8_ag25t99_m_lpia,"Educational attainment rate, completed primary education or higher, population 25+ years, male, adjusted location parity index (LPIA)",measure
 ea_1t8_ag25t99_m_wpia,"Educational attainment rate, completed primary education or higher, population 25+ years, male, adjusted wealth parity index (WPIA)",measure
+ea_1t8_ag25t99_native,"Educational attainment rate, completed primary education or higher, population 25+ years, non-immigrant background, both sexes (%)",measure
+ea_1t8_ag25t99_native_f,"Educational attainment rate, completed primary education or higher, population 25+ years, non-immigrant background, female (%)",measure
+ea_1t8_ag25t99_native_gpia,"Educational attainment rate, completed primary education or higher, population 25+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+ea_1t8_ag25t99_native_m,"Educational attainment rate, completed primary education or higher, population 25+ years, non-immigrant background, male (%)",measure
+ea_1t8_ag25t99_nonnative,"Educational attainment rate, completed primary education or higher, population 25+ years, immigrant background, both sexes (%)",measure
+ea_1t8_ag25t99_nonnative_f,"Educational attainment rate, completed primary education or higher, population 25+ years, immigrant background, female (%)",measure
+ea_1t8_ag25t99_nonnative_gpia,"Educational attainment rate, completed primary education or higher, population 25+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+ea_1t8_ag25t99_nonnative_m,"Educational attainment rate, completed primary education or higher, population 25+ years, immigrant background, male (%)",measure
+ea_1t8_ag25t99_npia,"Educational attainment rate, completed primary education or higher, population 25+ years, adjusted native parity index (NPIA)",measure
 ea_1t8_ag25t99_q1,"Educational attainment rate, completed primary education or higher, population 25+ years, poorest quintile, both sexes (%)",measure
 ea_1t8_ag25t99_q1_f,"Educational attainment rate, completed primary education or higher, population 25+ years, poorest quintile, female (%)",measure
 ea_1t8_ag25t99_q1_gpia,"Educational attainment rate, completed primary education or higher, population 25+ years, poorest quintile, adjusted gender parity index (household survey data) (GPIA)",measure
@@ -402,6 +411,15 @@ ea_2t8_ag25t99_lpia,"Educational attainment rate, completed lower secondary educ
 ea_2t8_ag25t99_m,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, male (%)",measure
 ea_2t8_ag25t99_m_lpia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, male, adjusted location parity index (LPIA)",measure
 ea_2t8_ag25t99_m_wpia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, male, adjusted wealth parity index (WPIA)",measure
+ea_2t8_ag25t99_native,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, non-immigrant background, both sexes (%)",measure
+ea_2t8_ag25t99_native_f,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, non-immigrant background, female (%)",measure
+ea_2t8_ag25t99_native_gpia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+ea_2t8_ag25t99_native_m,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, non-immigrant background, male (%)",measure
+ea_2t8_ag25t99_nonnative,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, immigrant background, both sexes (%)",measure
+ea_2t8_ag25t99_nonnative_f,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, immigrant background, female (%)",measure
+ea_2t8_ag25t99_nonnative_gpia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+ea_2t8_ag25t99_nonnative_m,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, immigrant background, male (%)",measure
+ea_2t8_ag25t99_npia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, adjusted native parity index (NPIA)",measure
 ea_2t8_ag25t99_q1,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, poorest quintile, both sexes (%)",measure
 ea_2t8_ag25t99_q1_f,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, poorest quintile, female (%)",measure
 ea_2t8_ag25t99_q1_gpia,"Educational attainment rate, completed lower secondary education or higher, population 25+ years, poorest quintile, adjusted gender parity index (household survey data) (GPIA)",measure
@@ -428,6 +446,15 @@ ea_3t8_ag25t99_lpia,"Educational attainment rate, completed upper secondary educ
 ea_3t8_ag25t99_m,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, male (%)",measure
 ea_3t8_ag25t99_m_lpia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, male, adjusted location parity index (LPIA)",measure
 ea_3t8_ag25t99_m_wpia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, male, adjusted wealth parity index (WPIA)",measure
+ea_3t8_ag25t99_native,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, non-immigrant background, both sexes (%)",measure
+ea_3t8_ag25t99_native_f,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, non-immigrant background, female (%)",measure
+ea_3t8_ag25t99_native_gpia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+ea_3t8_ag25t99_native_m,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, non-immigrant background, male (%)",measure
+ea_3t8_ag25t99_nonnative,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, immigrant background, both sexes (%)",measure
+ea_3t8_ag25t99_nonnative_f,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, immigrant background, female (%)",measure
+ea_3t8_ag25t99_nonnative_gpia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+ea_3t8_ag25t99_nonnative_m,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, immigrant background, male (%)",measure
+ea_3t8_ag25t99_npia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, adjusted native parity index (NPIA)",measure
 ea_3t8_ag25t99_q1,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, poorest quintile, both sexes (%)",measure
 ea_3t8_ag25t99_q1_f,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, poorest quintile, female (%)",measure
 ea_3t8_ag25t99_q1_gpia,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, poorest quintile, adjusted gender parity index (household survey data) (GPIA)",measure
@@ -484,6 +511,15 @@ ea_6t8_ag25t99_lpia,"Educational attainment rate, completed Bachelor's or equiva
 ea_6t8_ag25t99_m,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, male (%)",measure
 ea_6t8_ag25t99_m_lpia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, male, adjusted location parity index (LPIA)",measure
 ea_6t8_ag25t99_m_wpia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, male, adjusted wealth parity index (WPIA)",measure
+ea_6t8_ag25t99_native,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, non-immigrant background, both sexes (%)",measure
+ea_6t8_ag25t99_native_f,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, non-immigrant background, female (%)",measure
+ea_6t8_ag25t99_native_gpia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+ea_6t8_ag25t99_native_m,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, non-immigrant background, male (%)",measure
+ea_6t8_ag25t99_nonnative,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, immigrant background, both sexes (%)",measure
+ea_6t8_ag25t99_nonnative_f,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, immigrant background, female (%)",measure
+ea_6t8_ag25t99_nonnative_gpia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+ea_6t8_ag25t99_nonnative_m,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, immigrant background, male (%)",measure
+ea_6t8_ag25t99_npia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, adjusted native parity index (NPIA)",measure
 ea_6t8_ag25t99_q1,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, poorest quintile, both sexes (%)",measure
 ea_6t8_ag25t99_q1_f,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, poorest quintile, female (%)",measure
 ea_6t8_ag25t99_q1_gpia,"Educational attainment rate, completed Bachelor's or equivalent education or higher, population 25+ years, poorest quintile, adjusted gender parity index (household survey data) (GPIA)",measure
@@ -540,6 +576,15 @@ ea_s1t8_ag25t99_lpia,"Educational attainment: at least some primary (ISCED 1), p
 ea_s1t8_ag25t99_m,"Educational attainment: at least some primary (ISCED 1), population 25+ years, male (%)",measure
 ea_s1t8_ag25t99_m_lpia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, male, adjusted location parity index (LPIA)",measure
 ea_s1t8_ag25t99_m_wpia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, male, adjusted wealth parity index (WPIA)",measure
+ea_s1t8_ag25t99_native,"Educational attainment: at least some primary (ISCED 1), population 25+ years, non-immigrant background, both sexes (%)",measure
+ea_s1t8_ag25t99_native_f,"Educational attainment: at least some primary (ISCED 1), population 25+ years, non-immigrant background, female (%)",measure
+ea_s1t8_ag25t99_native_gpia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+ea_s1t8_ag25t99_native_m,"Educational attainment: at least some primary (ISCED 1), population 25+ years, non-immigrant background, male (%)",measure
+ea_s1t8_ag25t99_nonnative,"Educational attainment: at least some primary (ISCED 1), population 25+ years, immigrant background, both sexes (%)",measure
+ea_s1t8_ag25t99_nonnative_f,"Educational attainment: at least some primary (ISCED 1), population 25+ years, immigrant background, female (%)",measure
+ea_s1t8_ag25t99_nonnative_gpia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+ea_s1t8_ag25t99_nonnative_m,"Educational attainment: at least some primary (ISCED 1), population 25+ years, immigrant background, male (%)",measure
+ea_s1t8_ag25t99_npia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, adjusted native parity index (NPIA)",measure
 ea_s1t8_ag25t99_q1,"Educational attainment: at least some primary (ISCED 1), population 25+ years, poorest quintile, both sexes (%)",measure
 ea_s1t8_ag25t99_q1_f,"Educational attainment: at least some primary (ISCED 1), population 25+ years, poorest quintile, female (%)",measure
 ea_s1t8_ag25t99_q1_gpia,"Educational attainment: at least some primary (ISCED 1), population 25+ years, poorest quintile, adjusted gender parity index (household survey data) (GPIA)",measure
@@ -859,6 +904,130 @@ ictskillarsp_urb,"Proportion of youth and adults that used basic arithmetic form
 ictskillarsp_urb_f,"Proportion of youth and adults that used basic arithmetic formula in spreadsheet, urban, female (%)",measure
 ictskillarsp_urb_gpia,"Proportion of youth and adults that used basic arithmetic formula in spreadsheet, urban, adjusted gender parity index (GPIA)",measure
 ictskillarsp_urb_m,"Proportion of youth and adults that used basic arithmetic formula in spreadsheet, urban, male (%)",measure
+ictskillcommabas,"Proportion of youth and adults who have above basic communication and collaboration skills, both sexes (%)",measure
+ictskillcommabas_ag15t24,"Proportion of youth and adults who have above basic communication and collaboration skills, 15-24 years old, both sexes (%)",measure
+ictskillcommabas_ag15t24_f,"Proportion of youth and adults who have above basic communication and collaboration skills, 15-24 years old, female (%)",measure
+ictskillcommabas_ag15t24_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_ag15t24_m,"Proportion of youth and adults who have above basic communication and collaboration skills, 15-24 years old, male (%)",measure
+ictskillcommabas_ag25t74,"Proportion of youth and adults who have above basic communication and collaboration skills, 25-74 years old, both sexes (%)",measure
+ictskillcommabas_ag25t74_f,"Proportion of youth and adults who have above basic communication and collaboration skills, 25-74 years old, female (%)",measure
+ictskillcommabas_ag25t74_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_ag25t74_m,"Proportion of youth and adults who have above basic communication and collaboration skills, 25-74 years old, male (%)",measure
+ictskillcommabas_ag75orover,"Proportion of youth and adults who have above basic communication and collaboration skills, 75 years old or over, both sexes (%)",measure
+ictskillcommabas_ag75orover_f,"Proportion of youth and adults who have above basic communication and collaboration skills, 75 years old or over, female (%)",measure
+ictskillcommabas_ag75orover_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_ag75orover_m,"Proportion of youth and adults who have above basic communication and collaboration skills, 75 years old or over, male (%)",measure
+ictskillcommabas_agunder15y,"Proportion of youth and adults who have above basic communication and collaboration skills, under 15 years old, both sexes (%)",measure
+ictskillcommabas_agunder15y_f,"Proportion of youth and adults who have above basic communication and collaboration skills, under 15 years old, female (%)",measure
+ictskillcommabas_agunder15y_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_agunder15y_m,"Proportion of youth and adults who have above basic communication and collaboration skills, under 15 years old, male (%)",measure
+ictskillcommabas_f,"Proportion of youth and adults who have above basic communication and collaboration skills, female (%)",measure
+ictskillcommabas_f_lpia,"Proportion of youth and adults who have above basic communication and collaboration skills, female, adjusted location parity index (LPIA)",measure
+ictskillcommabas_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_lpia,"Proportion of youth and adults who have above basic communication and collaboration skills, adjusted location parity index (LPIA)",measure
+ictskillcommabas_m,"Proportion of youth and adults who have above basic communication and collaboration skills, male (%)",measure
+ictskillcommabas_m_lpia,"Proportion of youth and adults who have above basic communication and collaboration skills, male, adjusted location parity index (LPIA)",measure
+ictskillcommabas_rur,"Proportion of youth and adults who have above basic communication and collaboration skills, rural, both sexes (%)",measure
+ictskillcommabas_rur_f,"Proportion of youth and adults who have above basic communication and collaboration skills, rural, female (%)",measure
+ictskillcommabas_rur_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_rur_m,"Proportion of youth and adults who have above basic communication and collaboration skills, rural, male (%)",measure
+ictskillcommabas_urb,"Proportion of youth and adults who have above basic communication and collaboration skills, urban, both sexes (%)",measure
+ictskillcommabas_urb_f,"Proportion of youth and adults who have above basic communication and collaboration skills, urban, female (%)",measure
+ictskillcommabas_urb_gpia,"Proportion of youth and adults who have above basic communication and collaboration skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillcommabas_urb_m,"Proportion of youth and adults who have above basic communication and collaboration skills, urban, male (%)",measure
+ictskillcommbas,"Proportion of youth and adults who have basic communication and collaboration skills, both sexes (%)",measure
+ictskillcommbas_ag15t24,"Proportion of youth and adults who have basic communication and collaboration skills, 15-24 years old, both sexes (%)",measure
+ictskillcommbas_ag15t24_f,"Proportion of youth and adults who have basic communication and collaboration skills, 15-24 years old, female (%)",measure
+ictskillcommbas_ag15t24_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_ag15t24_m,"Proportion of youth and adults who have basic communication and collaboration skills, 15-24 years old, male (%)",measure
+ictskillcommbas_ag25t74,"Proportion of youth and adults who have basic communication and collaboration skills, 25-74 years old, both sexes (%)",measure
+ictskillcommbas_ag25t74_f,"Proportion of youth and adults who have basic communication and collaboration skills, 25-74 years old, female (%)",measure
+ictskillcommbas_ag25t74_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_ag25t74_m,"Proportion of youth and adults who have basic communication and collaboration skills, 25-74 years old, male (%)",measure
+ictskillcommbas_ag75orover,"Proportion of youth and adults who have basic communication and collaboration skills, 75 years old or over, both sexes (%)",measure
+ictskillcommbas_ag75orover_f,"Proportion of youth and adults who have basic communication and collaboration skills, 75 years old or over, female (%)",measure
+ictskillcommbas_ag75orover_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_ag75orover_m,"Proportion of youth and adults who have basic communication and collaboration skills, 75 years old or over, male (%)",measure
+ictskillcommbas_agunder15y,"Proportion of youth and adults who have basic communication and collaboration skills, under 15 years old, both sexes (%)",measure
+ictskillcommbas_agunder15y_f,"Proportion of youth and adults who have basic communication and collaboration skills, under 15 years old, female (%)",measure
+ictskillcommbas_agunder15y_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_agunder15y_m,"Proportion of youth and adults who have basic communication and collaboration skills, under 15 years old, male (%)",measure
+ictskillcommbas_f,"Proportion of youth and adults who have basic communication and collaboration skills, female (%)",measure
+ictskillcommbas_f_lpia,"Proportion of youth and adults who have basic communication and collaboration skills, female, adjusted location parity index (LPIA)",measure
+ictskillcommbas_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_lpia,"Proportion of youth and adults who have basic communication and collaboration skills, adjusted location parity index (LPIA)",measure
+ictskillcommbas_m,"Proportion of youth and adults who have basic communication and collaboration skills, male (%)",measure
+ictskillcommbas_m_lpia,"Proportion of youth and adults who have basic communication and collaboration skills, male, adjusted location parity index (LPIA)",measure
+ictskillcommbas_rur,"Proportion of youth and adults who have basic communication and collaboration skills, rural, both sexes (%)",measure
+ictskillcommbas_rur_f,"Proportion of youth and adults who have basic communication and collaboration skills, rural, female (%)",measure
+ictskillcommbas_rur_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_rur_m,"Proportion of youth and adults who have basic communication and collaboration skills, rural, male (%)",measure
+ictskillcommbas_urb,"Proportion of youth and adults who have basic communication and collaboration skills, urban, both sexes (%)",measure
+ictskillcommbas_urb_f,"Proportion of youth and adults who have basic communication and collaboration skills, urban, female (%)",measure
+ictskillcommbas_urb_gpia,"Proportion of youth and adults who have basic communication and collaboration skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillcommbas_urb_m,"Proportion of youth and adults who have basic communication and collaboration skills, urban, male (%)",measure
+ictskillcontabas,"Proportion of youth and adults who have above basic digital content creation skills, both sexes (%)",measure
+ictskillcontabas_ag15t24,"Proportion of youth and adults who have above basic digital content creation skills, 15-24 years old, both sexes (%)",measure
+ictskillcontabas_ag15t24_f,"Proportion of youth and adults who have above basic digital content creation skills, 15-24 years old, female (%)",measure
+ictskillcontabas_ag15t24_gpia,"Proportion of youth and adults who have above basic digital content creation skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_ag15t24_m,"Proportion of youth and adults who have above basic digital content creation skills, 15-24 years old, male (%)",measure
+ictskillcontabas_ag25t74,"Proportion of youth and adults who have above basic digital content creation skills, 25-74 years old, both sexes (%)",measure
+ictskillcontabas_ag25t74_f,"Proportion of youth and adults who have above basic digital content creation skills, 25-74 years old, female (%)",measure
+ictskillcontabas_ag25t74_gpia,"Proportion of youth and adults who have above basic digital content creation skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_ag25t74_m,"Proportion of youth and adults who have above basic digital content creation skills, 25-74 years old, male (%)",measure
+ictskillcontabas_ag75orover,"Proportion of youth and adults who have above basic digital content creation skills, 75 years old or over, both sexes (%)",measure
+ictskillcontabas_ag75orover_f,"Proportion of youth and adults who have above basic digital content creation skills, 75 years old or over, female (%)",measure
+ictskillcontabas_ag75orover_gpia,"Proportion of youth and adults who have above basic digital content creation skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_ag75orover_m,"Proportion of youth and adults who have above basic digital content creation skills, 75 years old or over, male (%)",measure
+ictskillcontabas_agunder15y,"Proportion of youth and adults who have above basic digital content creation skills, under 15 years old, both sexes (%)",measure
+ictskillcontabas_agunder15y_f,"Proportion of youth and adults who have above basic digital content creation skills, under 15 years old, female (%)",measure
+ictskillcontabas_agunder15y_gpia,"Proportion of youth and adults who have above basic digital content creation skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_agunder15y_m,"Proportion of youth and adults who have above basic digital content creation skills, under 15 years old, male (%)",measure
+ictskillcontabas_f,"Proportion of youth and adults who have above basic digital content creation skills, female (%)",measure
+ictskillcontabas_f_lpia,"Proportion of youth and adults who have above basic digital content creation skills, female, adjusted location parity index (LPIA)",measure
+ictskillcontabas_gpia,"Proportion of youth and adults who have above basic digital content creation skills, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_lpia,"Proportion of youth and adults who have above basic digital content creation skills, adjusted location parity index (LPIA)",measure
+ictskillcontabas_m,"Proportion of youth and adults who have above basic digital content creation skills, male (%)",measure
+ictskillcontabas_m_lpia,"Proportion of youth and adults who have above basic digital content creation skills, male, adjusted location parity index (LPIA)",measure
+ictskillcontabas_rur,"Proportion of youth and adults who have above basic digital content creation skills, rural, both sexes (%)",measure
+ictskillcontabas_rur_f,"Proportion of youth and adults who have above basic digital content creation skills, rural, female (%)",measure
+ictskillcontabas_rur_gpia,"Proportion of youth and adults who have above basic digital content creation skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_rur_m,"Proportion of youth and adults who have above basic digital content creation skills, rural, male (%)",measure
+ictskillcontabas_urb,"Proportion of youth and adults who have above basic digital content creation skills, urban, both sexes (%)",measure
+ictskillcontabas_urb_f,"Proportion of youth and adults who have above basic digital content creation skills, urban, female (%)",measure
+ictskillcontabas_urb_gpia,"Proportion of youth and adults who have above basic digital content creation skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillcontabas_urb_m,"Proportion of youth and adults who have above basic digital content creation skills, urban, male (%)",measure
+ictskillcontbas,"Proportion of youth and adults who have basic digital content creation skills, both sexes (%)",measure
+ictskillcontbas_ag15t24,"Proportion of youth and adults who have basic digital content creation skills, 15-24 years old, both sexes (%)",measure
+ictskillcontbas_ag15t24_f,"Proportion of youth and adults who have basic digital content creation skills, 15-24 years old, female (%)",measure
+ictskillcontbas_ag15t24_gpia,"Proportion of youth and adults who have basic digital content creation skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_ag15t24_m,"Proportion of youth and adults who have basic digital content creation skills, 15-24 years old, male (%)",measure
+ictskillcontbas_ag25t74,"Proportion of youth and adults who have basic digital content creation skills, 25-74 years old, both sexes (%)",measure
+ictskillcontbas_ag25t74_f,"Proportion of youth and adults who have basic digital content creation skills, 25-74 years old, female (%)",measure
+ictskillcontbas_ag25t74_gpia,"Proportion of youth and adults who have basic digital content creation skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_ag25t74_m,"Proportion of youth and adults who have basic digital content creation skills, 25-74 years old, male (%)",measure
+ictskillcontbas_ag75orover,"Proportion of youth and adults who have basic digital content creation skills, 75 years old or over, both sexes (%)",measure
+ictskillcontbas_ag75orover_f,"Proportion of youth and adults who have basic digital content creation skills, 75 years old or over, female (%)",measure
+ictskillcontbas_ag75orover_gpia,"Proportion of youth and adults who have basic digital content creation skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_ag75orover_m,"Proportion of youth and adults who have basic digital content creation skills, 75 years old or over, male (%)",measure
+ictskillcontbas_agunder15y,"Proportion of youth and adults who have basic digital content creation skills, under 15 years old, both sexes (%)",measure
+ictskillcontbas_agunder15y_f,"Proportion of youth and adults who have basic digital content creation skills, under 15 years old, female (%)",measure
+ictskillcontbas_agunder15y_gpia,"Proportion of youth and adults who have basic digital content creation skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_agunder15y_m,"Proportion of youth and adults who have basic digital content creation skills, under 15 years old, male (%)",measure
+ictskillcontbas_f,"Proportion of youth and adults who have basic digital content creation skills, female (%)",measure
+ictskillcontbas_f_lpia,"Proportion of youth and adults who have basic digital content creation skills, female, adjusted location parity index (LPIA)",measure
+ictskillcontbas_gpia,"Proportion of youth and adults who have basic digital content creation skills, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_lpia,"Proportion of youth and adults who have basic digital content creation skills, adjusted location parity index (LPIA)",measure
+ictskillcontbas_m,"Proportion of youth and adults who have basic digital content creation skills, male (%)",measure
+ictskillcontbas_m_lpia,"Proportion of youth and adults who have basic digital content creation skills, male, adjusted location parity index (LPIA)",measure
+ictskillcontbas_rur,"Proportion of youth and adults who have basic digital content creation skills, rural, both sexes (%)",measure
+ictskillcontbas_rur_f,"Proportion of youth and adults who have basic digital content creation skills, rural, female (%)",measure
+ictskillcontbas_rur_gpia,"Proportion of youth and adults who have basic digital content creation skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_rur_m,"Proportion of youth and adults who have basic digital content creation skills, rural, male (%)",measure
+ictskillcontbas_urb,"Proportion of youth and adults who have basic digital content creation skills, urban, both sexes (%)",measure
+ictskillcontbas_urb_f,"Proportion of youth and adults who have basic digital content creation skills, urban, female (%)",measure
+ictskillcontbas_urb_gpia,"Proportion of youth and adults who have basic digital content creation skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillcontbas_urb_m,"Proportion of youth and adults who have basic digital content creation skills, urban, male (%)",measure
 ictskillcopa,"Proportion of youth and adults that used copy and paste tools to duplicate or move data, information and content in digital environments (e.g. within a document, between devices, on the cloud), both sexes (%)",measure
 ictskillcopa_ag15t24,"Proportion of youth and adults that used copy and paste tools to duplicate or move data, information and content in digital environments (e.g. within a document, between devices, on the cloud), 15-24 years old, both sexes (%)",measure
 ictskillcopa_ag15t24_f,"Proportion of youth and adults that used copy and paste tools to duplicate or move data, information and content in digital environments (e.g. within a document, between devices, on the cloud), 15-24 years old, female (%)",measure
@@ -1076,37 +1245,6 @@ ictskillgsinf_urb,"Proportion of youth and adults that got information about goo
 ictskillgsinf_urb_f,"Proportion of youth and adults that got information about goods or services, urban, female (%)",measure
 ictskillgsinf_urb_gpia,"Proportion of youth and adults that got information about goods or services, urban, adjusted gender parity index (GPIA)",measure
 ictskillgsinf_urb_m,"Proportion of youth and adults that got information about goods or services, urban, male (%)",measure
-ictskillgspur,"Proportion of youth and adults who have purchased or ordered goods or services, both sexes (%)",measure
-ictskillgspur_ag15t24,"Proportion of youth and adults who have purchased or ordered goods or services, 15-24 years old, both sexes (%)",measure
-ictskillgspur_ag15t24_f,"Proportion of youth and adults who have purchased or ordered goods or services, 15-24 years old, female (%)",measure
-ictskillgspur_ag15t24_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, 15-24 years old, adjusted gender parity index (GPIA)",measure
-ictskillgspur_ag15t24_m,"Proportion of youth and adults who have purchased or ordered goods or services, 15-24 years old, male (%)",measure
-ictskillgspur_ag25t74,"Proportion of youth and adults who have purchased or ordered goods or services, 25-74 years old, both sexes (%)",measure
-ictskillgspur_ag25t74_f,"Proportion of youth and adults who have purchased or ordered goods or services, 25-74 years old, female (%)",measure
-ictskillgspur_ag25t74_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, 25-74 years old, adjusted gender parity index (GPIA)",measure
-ictskillgspur_ag25t74_m,"Proportion of youth and adults who have purchased or ordered goods or services, 25-74 years old, male (%)",measure
-ictskillgspur_ag75orover,"Proportion of youth and adults who have purchased or ordered goods or services, 75 years old or over, both sexes (%)",measure
-ictskillgspur_ag75orover_f,"Proportion of youth and adults who have purchased or ordered goods or services, 75 years old or over, female (%)",measure
-ictskillgspur_ag75orover_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, 75 years old or over, adjusted gender parity index (GPIA)",measure
-ictskillgspur_ag75orover_m,"Proportion of youth and adults who have purchased or ordered goods or services, 75 years old or over, male (%)",measure
-ictskillgspur_agunder15y,"Proportion of youth and adults who have purchased or ordered goods or services, under 15 years old, both sexes (%)",measure
-ictskillgspur_agunder15y_f,"Proportion of youth and adults who have purchased or ordered goods or services, under 15 years old, female (%)",measure
-ictskillgspur_agunder15y_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, under 15 years old, adjusted gender parity index (GPIA)",measure
-ictskillgspur_agunder15y_m,"Proportion of youth and adults who have purchased or ordered goods or services, under 15 years old, male (%)",measure
-ictskillgspur_f,"Proportion of youth and adults who have purchased or ordered goods or services, female (%)",measure
-ictskillgspur_f_lpia,"Proportion of youth and adults who have purchased or ordered goods or services, female, adjusted location parity index (LPIA)",measure
-ictskillgspur_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, adjusted gender parity index (GPIA)",measure
-ictskillgspur_lpia,"Proportion of youth and adults who have purchased or ordered goods or services, adjusted location parity index (LPIA)",measure
-ictskillgspur_m,"Proportion of youth and adults who have purchased or ordered goods or services, male (%)",measure
-ictskillgspur_m_lpia,"Proportion of youth and adults who have purchased or ordered goods or services, male, adjusted location parity index (LPIA)",measure
-ictskillgspur_rur,"Proportion of youth and adults who have purchased or ordered goods or services, rural, both sexes (%)",measure
-ictskillgspur_rur_f,"Proportion of youth and adults who have purchased or ordered goods or services, rural, female (%)",measure
-ictskillgspur_rur_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, rural, adjusted gender parity index (GPIA)",measure
-ictskillgspur_rur_m,"Proportion of youth and adults who have purchased or ordered goods or services, rural, male (%)",measure
-ictskillgspur_urb,"Proportion of youth and adults who have purchased or ordered goods or services, urban, both sexes (%)",measure
-ictskillgspur_urb_f,"Proportion of youth and adults who have purchased or ordered goods or services, urban, female (%)",measure
-ictskillgspur_urb_gpia,"Proportion of youth and adults who have purchased or ordered goods or services, urban, adjusted gender parity index (GPIA)",measure
-ictskillgspur_urb_m,"Proportion of youth and adults who have purchased or ordered goods or services, urban, male (%)",measure
 ictskillhlthinf,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), both sexes (%)",measure
 ictskillhlthinf_ag15t24,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), 15-24 years old, both sexes (%)",measure
 ictskillhlthinf_ag15t24_f,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), 15-24 years old, female (%)",measure
@@ -1138,6 +1276,68 @@ ictskillhlthinf_urb,"Proportion of youth and adults that sought health related i
 ictskillhlthinf_urb_f,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), urban, female (%)",measure
 ictskillhlthinf_urb_gpia,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), urban, adjusted gender parity index (GPIA)",measure
 ictskillhlthinf_urb_m,"Proportion of youth and adults that sought health related information (on injury, disease, nutrition, etc.), urban, male (%)",measure
+ictskillinfoabas,"Proportion of youth and adults who have above basic information and data literacy skills, both sexes (%)",measure
+ictskillinfoabas_ag15t24,"Proportion of youth and adults who have above basic information and data literacy skills, 15-24 years old, both sexes (%)",measure
+ictskillinfoabas_ag15t24_f,"Proportion of youth and adults who have above basic information and data literacy skills, 15-24 years old, female (%)",measure
+ictskillinfoabas_ag15t24_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_ag15t24_m,"Proportion of youth and adults who have above basic information and data literacy skills, 15-24 years old, male (%)",measure
+ictskillinfoabas_ag25t74,"Proportion of youth and adults who have above basic information and data literacy skills, 25-74 years old, both sexes (%)",measure
+ictskillinfoabas_ag25t74_f,"Proportion of youth and adults who have above basic information and data literacy skills, 25-74 years old, female (%)",measure
+ictskillinfoabas_ag25t74_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_ag25t74_m,"Proportion of youth and adults who have above basic information and data literacy skills, 25-74 years old, male (%)",measure
+ictskillinfoabas_ag75orover,"Proportion of youth and adults who have above basic information and data literacy skills, 75 years old or over, both sexes (%)",measure
+ictskillinfoabas_ag75orover_f,"Proportion of youth and adults who have above basic information and data literacy skills, 75 years old or over, female (%)",measure
+ictskillinfoabas_ag75orover_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_ag75orover_m,"Proportion of youth and adults who have above basic information and data literacy skills, 75 years old or over, male (%)",measure
+ictskillinfoabas_agunder15y,"Proportion of youth and adults who have above basic information and data literacy skills, under 15 years old, both sexes (%)",measure
+ictskillinfoabas_agunder15y_f,"Proportion of youth and adults who have above basic information and data literacy skills, under 15 years old, female (%)",measure
+ictskillinfoabas_agunder15y_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_agunder15y_m,"Proportion of youth and adults who have above basic information and data literacy skills, under 15 years old, male (%)",measure
+ictskillinfoabas_f,"Proportion of youth and adults who have above basic information and data literacy skills, female (%)",measure
+ictskillinfoabas_f_lpia,"Proportion of youth and adults who have above basic information and data literacy skills, female, adjusted location parity index (LPIA)",measure
+ictskillinfoabas_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_lpia,"Proportion of youth and adults who have above basic information and data literacy skills, adjusted location parity index (LPIA)",measure
+ictskillinfoabas_m,"Proportion of youth and adults who have above basic information and data literacy skills, male (%)",measure
+ictskillinfoabas_m_lpia,"Proportion of youth and adults who have above basic information and data literacy skills, male, adjusted location parity index (LPIA)",measure
+ictskillinfoabas_rur,"Proportion of youth and adults who have above basic information and data literacy skills, rural, both sexes (%)",measure
+ictskillinfoabas_rur_f,"Proportion of youth and adults who have above basic information and data literacy skills, rural, female (%)",measure
+ictskillinfoabas_rur_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_rur_m,"Proportion of youth and adults who have above basic information and data literacy skills, rural, male (%)",measure
+ictskillinfoabas_urb,"Proportion of youth and adults who have above basic information and data literacy skills, urban, both sexes (%)",measure
+ictskillinfoabas_urb_f,"Proportion of youth and adults who have above basic information and data literacy skills, urban, female (%)",measure
+ictskillinfoabas_urb_gpia,"Proportion of youth and adults who have above basic information and data literacy skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillinfoabas_urb_m,"Proportion of youth and adults who have above basic information and data literacy skills, urban, male (%)",measure
+ictskillinfobas,"Proportion of youth and adults who have basic information and data literacy skills, both sexes (%)",measure
+ictskillinfobas_ag15t24,"Proportion of youth and adults who have basic information and data literacy skills, 15-24 years old, both sexes (%)",measure
+ictskillinfobas_ag15t24_f,"Proportion of youth and adults who have basic information and data literacy skills, 15-24 years old, female (%)",measure
+ictskillinfobas_ag15t24_gpia,"Proportion of youth and adults who have basic information and data literacy skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_ag15t24_m,"Proportion of youth and adults who have basic information and data literacy skills, 15-24 years old, male (%)",measure
+ictskillinfobas_ag25t74,"Proportion of youth and adults who have basic information and data literacy skills, 25-74 years old, both sexes (%)",measure
+ictskillinfobas_ag25t74_f,"Proportion of youth and adults who have basic information and data literacy skills, 25-74 years old, female (%)",measure
+ictskillinfobas_ag25t74_gpia,"Proportion of youth and adults who have basic information and data literacy skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_ag25t74_m,"Proportion of youth and adults who have basic information and data literacy skills, 25-74 years old, male (%)",measure
+ictskillinfobas_ag75orover,"Proportion of youth and adults who have basic information and data literacy skills, 75 years old or over, both sexes (%)",measure
+ictskillinfobas_ag75orover_f,"Proportion of youth and adults who have basic information and data literacy skills, 75 years old or over, female (%)",measure
+ictskillinfobas_ag75orover_gpia,"Proportion of youth and adults who have basic information and data literacy skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_ag75orover_m,"Proportion of youth and adults who have basic information and data literacy skills, 75 years old or over, male (%)",measure
+ictskillinfobas_agunder15y,"Proportion of youth and adults who have basic information and data literacy skills, under 15 years old, both sexes (%)",measure
+ictskillinfobas_agunder15y_f,"Proportion of youth and adults who have basic information and data literacy skills, under 15 years old, female (%)",measure
+ictskillinfobas_agunder15y_gpia,"Proportion of youth and adults who have basic information and data literacy skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_agunder15y_m,"Proportion of youth and adults who have basic information and data literacy skills, under 15 years old, male (%)",measure
+ictskillinfobas_f,"Proportion of youth and adults who have basic information and data literacy skills, female (%)",measure
+ictskillinfobas_f_lpia,"Proportion of youth and adults who have basic information and data literacy skills, female, adjusted location parity index (LPIA)",measure
+ictskillinfobas_gpia,"Proportion of youth and adults who have basic information and data literacy skills, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_lpia,"Proportion of youth and adults who have basic information and data literacy skills, adjusted location parity index (LPIA)",measure
+ictskillinfobas_m,"Proportion of youth and adults who have basic information and data literacy skills, male (%)",measure
+ictskillinfobas_m_lpia,"Proportion of youth and adults who have basic information and data literacy skills, male, adjusted location parity index (LPIA)",measure
+ictskillinfobas_rur,"Proportion of youth and adults who have basic information and data literacy skills, rural, both sexes (%)",measure
+ictskillinfobas_rur_f,"Proportion of youth and adults who have basic information and data literacy skills, rural, female (%)",measure
+ictskillinfobas_rur_gpia,"Proportion of youth and adults who have basic information and data literacy skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_rur_m,"Proportion of youth and adults who have basic information and data literacy skills, rural, male (%)",measure
+ictskillinfobas_urb,"Proportion of youth and adults who have basic information and data literacy skills, urban, both sexes (%)",measure
+ictskillinfobas_urb_f,"Proportion of youth and adults who have basic information and data literacy skills, urban, female (%)",measure
+ictskillinfobas_urb_gpia,"Proportion of youth and adults who have basic information and data literacy skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillinfobas_urb_m,"Proportion of youth and adults who have basic information and data literacy skills, urban, male (%)",measure
 ictskillinst,"Proportion of youth and adults that connected and installed new devices (e.g. a modem, camera, printer) through wired or wireless technologies, both sexes (%)",measure
 ictskillinst_ag15t24,"Proportion of youth and adults that connected and installed new devices (e.g. a modem, camera, printer) through wired or wireless technologies, 15-24 years old, both sexes (%)",measure
 ictskillinst_ag15t24_f,"Proportion of youth and adults that connected and installed new devices (e.g. a modem, camera, printer) through wired or wireless technologies, 15-24 years old, female (%)",measure
@@ -1231,37 +1431,6 @@ ictskillonlcns_urb,"Proportion of youth and adults that took part in consultatio
 ictskillonlcns_urb_f,"Proportion of youth and adults that took part in consultation or voting via Internet to define civic or political issues, urban, female (%)",measure
 ictskillonlcns_urb_gpia,"Proportion of youth and adults that took part in consultation or voting via Internet to define civic or political issues, urban, adjusted gender parity index (GPIA)",measure
 ictskillonlcns_urb_m,"Proportion of youth and adults that took part in consultation or voting via Internet to define civic or political issues, urban, male (%)",measure
-ictskillonlcrs,"Proportion of youth and adults who have done online course (in any subject), both sexes (%)",measure
-ictskillonlcrs_ag15t24,"Proportion of youth and adults who have done online course (in any subject), 15-24 years old, both sexes (%)",measure
-ictskillonlcrs_ag15t24_f,"Proportion of youth and adults who have done online course (in any subject), 15-24 years old, female (%)",measure
-ictskillonlcrs_ag15t24_gpia,"Proportion of youth and adults who have done online course (in any subject), 15-24 years old, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_ag15t24_m,"Proportion of youth and adults who have done online course (in any subject), 15-24 years old, male (%)",measure
-ictskillonlcrs_ag25t74,"Proportion of youth and adults who have done online course (in any subject), 25-74 years old, both sexes (%)",measure
-ictskillonlcrs_ag25t74_f,"Proportion of youth and adults who have done online course (in any subject), 25-74 years old, female (%)",measure
-ictskillonlcrs_ag25t74_gpia,"Proportion of youth and adults who have done online course (in any subject), 25-74 years old, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_ag25t74_m,"Proportion of youth and adults who have done online course (in any subject), 25-74 years old, male (%)",measure
-ictskillonlcrs_ag75orover,"Proportion of youth and adults who have done online course (in any subject), 75 years old or over, both sexes (%)",measure
-ictskillonlcrs_ag75orover_f,"Proportion of youth and adults who have done online course (in any subject), 75 years old or over, female (%)",measure
-ictskillonlcrs_ag75orover_gpia,"Proportion of youth and adults who have done online course (in any subject), 75 years old or over, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_ag75orover_m,"Proportion of youth and adults who have done online course (in any subject), 75 years old or over, male (%)",measure
-ictskillonlcrs_agunder15y,"Proportion of youth and adults who have done online course (in any subject), under 15 years old, both sexes (%)",measure
-ictskillonlcrs_agunder15y_f,"Proportion of youth and adults who have done online course (in any subject), under 15 years old, female (%)",measure
-ictskillonlcrs_agunder15y_gpia,"Proportion of youth and adults who have done online course (in any subject), under 15 years old, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_agunder15y_m,"Proportion of youth and adults who have done online course (in any subject), under 15 years old, male (%)",measure
-ictskillonlcrs_f,"Proportion of youth and adults who have done online course (in any subject), female (%)",measure
-ictskillonlcrs_f_lpia,"Proportion of youth and adults who have done online course (in any subject), female, adjusted location parity index (LPIA)",measure
-ictskillonlcrs_gpia,"Proportion of youth and adults who have done online course (in any subject), adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_lpia,"Proportion of youth and adults who have done online course (in any subject), adjusted location parity index (LPIA)",measure
-ictskillonlcrs_m,"Proportion of youth and adults who have done online course (in any subject), male (%)",measure
-ictskillonlcrs_m_lpia,"Proportion of youth and adults who have done online course (in any subject), male, adjusted location parity index (LPIA)",measure
-ictskillonlcrs_rur,"Proportion of youth and adults who have done online course (in any subject), rural, both sexes (%)",measure
-ictskillonlcrs_rur_f,"Proportion of youth and adults who have done online course (in any subject), rural, female (%)",measure
-ictskillonlcrs_rur_gpia,"Proportion of youth and adults who have done online course (in any subject), rural, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_rur_m,"Proportion of youth and adults who have done online course (in any subject), rural, male (%)",measure
-ictskillonlcrs_urb,"Proportion of youth and adults who have done online course (in any subject), urban, both sexes (%)",measure
-ictskillonlcrs_urb_f,"Proportion of youth and adults who have done online course (in any subject), urban, female (%)",measure
-ictskillonlcrs_urb_gpia,"Proportion of youth and adults who have done online course (in any subject), urban, adjusted gender parity index (GPIA)",measure
-ictskillonlcrs_urb_m,"Proportion of youth and adults who have done online course (in any subject), urban, male (%)",measure
 ictskillonlsft,"Proportion of youth and adults that used software run over the Internet for editing text documents, spreadsheets or presentations, both sexes (%)",measure
 ictskillonlsft_ag15t24,"Proportion of youth and adults that used software run over the Internet for editing text documents, spreadsheets or presentations, 15-24 years old, both sexes (%)",measure
 ictskillonlsft_ag15t24_f,"Proportion of youth and adults that used software run over the Internet for editing text documents, spreadsheets or presentations, 15-24 years old, female (%)",measure
@@ -1324,6 +1493,68 @@ ictskillpcpr_urb,"Proportion of youth and adults that programmed or coded in dig
 ictskillpcpr_urb_f,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, female (%)",measure
 ictskillpcpr_urb_gpia,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, adjusted gender parity index (GPIA)",measure
 ictskillpcpr_urb_m,"Proportion of youth and adults that programmed or coded in digital environments (e.g. computer software, app development), urban, male (%)",measure
+ictskillprobabas,"Proportion of youth and adults who have above basic problem sovling skills, both sexes (%)",measure
+ictskillprobabas_ag15t24,"Proportion of youth and adults who have above basic problem sovling skills, 15-24 years old, both sexes (%)",measure
+ictskillprobabas_ag15t24_f,"Proportion of youth and adults who have above basic problem sovling skills, 15-24 years old, female (%)",measure
+ictskillprobabas_ag15t24_gpia,"Proportion of youth and adults who have above basic problem sovling skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_ag15t24_m,"Proportion of youth and adults who have above basic problem sovling skills, 15-24 years old, male (%)",measure
+ictskillprobabas_ag25t74,"Proportion of youth and adults who have above basic problem sovling skills, 25-74 years old, both sexes (%)",measure
+ictskillprobabas_ag25t74_f,"Proportion of youth and adults who have above basic problem sovling skills, 25-74 years old, female (%)",measure
+ictskillprobabas_ag25t74_gpia,"Proportion of youth and adults who have above basic problem sovling skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_ag25t74_m,"Proportion of youth and adults who have above basic problem sovling skills, 25-74 years old, male (%)",measure
+ictskillprobabas_ag75orover,"Proportion of youth and adults who have above basic problem sovling skills, 75 years old or over, both sexes (%)",measure
+ictskillprobabas_ag75orover_f,"Proportion of youth and adults who have above basic problem sovling skills, 75 years old or over, female (%)",measure
+ictskillprobabas_ag75orover_gpia,"Proportion of youth and adults who have above basic problem sovling skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_ag75orover_m,"Proportion of youth and adults who have above basic problem sovling skills, 75 years old or over, male (%)",measure
+ictskillprobabas_agunder15y,"Proportion of youth and adults who have above basic problem sovling skills, under 15 years old, both sexes (%)",measure
+ictskillprobabas_agunder15y_f,"Proportion of youth and adults who have above basic problem sovling skills, under 15 years old, female (%)",measure
+ictskillprobabas_agunder15y_gpia,"Proportion of youth and adults who have above basic problem sovling skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_agunder15y_m,"Proportion of youth and adults who have above basic problem sovling skills, under 15 years old, male (%)",measure
+ictskillprobabas_f,"Proportion of youth and adults who have above basic problem sovling skills, female (%)",measure
+ictskillprobabas_f_lpia,"Proportion of youth and adults who have above basic problem sovling skills, female, adjusted location parity index (LPIA)",measure
+ictskillprobabas_gpia,"Proportion of youth and adults who have above basic problem sovling skills, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_lpia,"Proportion of youth and adults who have above basic problem sovling skills, adjusted location parity index (LPIA)",measure
+ictskillprobabas_m,"Proportion of youth and adults who have above basic problem sovling skills, male (%)",measure
+ictskillprobabas_m_lpia,"Proportion of youth and adults who have above basic problem sovling skills, male, adjusted location parity index (LPIA)",measure
+ictskillprobabas_rur,"Proportion of youth and adults who have above basic problem sovling skills, rural, both sexes (%)",measure
+ictskillprobabas_rur_f,"Proportion of youth and adults who have above basic problem sovling skills, rural, female (%)",measure
+ictskillprobabas_rur_gpia,"Proportion of youth and adults who have above basic problem sovling skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_rur_m,"Proportion of youth and adults who have above basic problem sovling skills, rural, male (%)",measure
+ictskillprobabas_urb,"Proportion of youth and adults who have above basic problem sovling skills, urban, both sexes (%)",measure
+ictskillprobabas_urb_f,"Proportion of youth and adults who have above basic problem sovling skills, urban, female (%)",measure
+ictskillprobabas_urb_gpia,"Proportion of youth and adults who have above basic problem sovling skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillprobabas_urb_m,"Proportion of youth and adults who have above basic problem sovling skills, urban, male (%)",measure
+ictskillprobbas,"Proportion of youth and adults who have basic problem sovling skills, both sexes (%)",measure
+ictskillprobbas_ag15t24,"Proportion of youth and adults who have basic problem sovling skills, 15-24 years old, both sexes (%)",measure
+ictskillprobbas_ag15t24_f,"Proportion of youth and adults who have basic problem sovling skills, 15-24 years old, female (%)",measure
+ictskillprobbas_ag15t24_gpia,"Proportion of youth and adults who have basic problem sovling skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_ag15t24_m,"Proportion of youth and adults who have basic problem sovling skills, 15-24 years old, male (%)",measure
+ictskillprobbas_ag25t74,"Proportion of youth and adults who have basic problem sovling skills, 25-74 years old, both sexes (%)",measure
+ictskillprobbas_ag25t74_f,"Proportion of youth and adults who have basic problem sovling skills, 25-74 years old, female (%)",measure
+ictskillprobbas_ag25t74_gpia,"Proportion of youth and adults who have basic problem sovling skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_ag25t74_m,"Proportion of youth and adults who have basic problem sovling skills, 25-74 years old, male (%)",measure
+ictskillprobbas_ag75orover,"Proportion of youth and adults who have basic problem sovling skills, 75 years old or over, both sexes (%)",measure
+ictskillprobbas_ag75orover_f,"Proportion of youth and adults who have basic problem sovling skills, 75 years old or over, female (%)",measure
+ictskillprobbas_ag75orover_gpia,"Proportion of youth and adults who have basic problem sovling skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_ag75orover_m,"Proportion of youth and adults who have basic problem sovling skills, 75 years old or over, male (%)",measure
+ictskillprobbas_agunder15y,"Proportion of youth and adults who have basic problem sovling skills, under 15 years old, both sexes (%)",measure
+ictskillprobbas_agunder15y_f,"Proportion of youth and adults who have basic problem sovling skills, under 15 years old, female (%)",measure
+ictskillprobbas_agunder15y_gpia,"Proportion of youth and adults who have basic problem sovling skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_agunder15y_m,"Proportion of youth and adults who have basic problem sovling skills, under 15 years old, male (%)",measure
+ictskillprobbas_f,"Proportion of youth and adults who have basic problem sovling skills, female (%)",measure
+ictskillprobbas_f_lpia,"Proportion of youth and adults who have basic problem sovling skills, female, adjusted location parity index (LPIA)",measure
+ictskillprobbas_gpia,"Proportion of youth and adults who have basic problem sovling skills, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_lpia,"Proportion of youth and adults who have basic problem sovling skills, adjusted location parity index (LPIA)",measure
+ictskillprobbas_m,"Proportion of youth and adults who have basic problem sovling skills, male (%)",measure
+ictskillprobbas_m_lpia,"Proportion of youth and adults who have basic problem sovling skills, male, adjusted location parity index (LPIA)",measure
+ictskillprobbas_rur,"Proportion of youth and adults who have basic problem sovling skills, rural, both sexes (%)",measure
+ictskillprobbas_rur_f,"Proportion of youth and adults who have basic problem sovling skills, rural, female (%)",measure
+ictskillprobbas_rur_gpia,"Proportion of youth and adults who have basic problem sovling skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_rur_m,"Proportion of youth and adults who have basic problem sovling skills, rural, male (%)",measure
+ictskillprobbas_urb,"Proportion of youth and adults who have basic problem sovling skills, urban, both sexes (%)",measure
+ictskillprobbas_urb_f,"Proportion of youth and adults who have basic problem sovling skills, urban, female (%)",measure
+ictskillprobbas_urb_gpia,"Proportion of youth and adults who have basic problem sovling skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillprobbas_urb_m,"Proportion of youth and adults who have basic problem sovling skills, urban, male (%)",measure
 ictskillprvcy,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), both sexes (%)",measure
 ictskillprvcy_ag15t24,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), 15-24 years old, both sexes (%)",measure
 ictskillprvcy_ag15t24_f,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), 15-24 years old, female (%)",measure
@@ -1355,6 +1586,68 @@ ictskillprvcy_urb,"Proportion of youth and adults that changed privacy settings 
 ictskillprvcy_urb_f,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), urban, female (%)",measure
 ictskillprvcy_urb_gpia,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), urban, adjusted gender parity index (GPIA)",measure
 ictskillprvcy_urb_m,"Proportion of youth and adults that changed privacy settings on your device, account or app to limit the sharing of personal data and information (e.g. name, contact information, photos), urban, male (%)",measure
+ictskillsafeabas,"Proportion of youth and adults who have above basic safety skills, both sexes (%)",measure
+ictskillsafeabas_ag15t24,"Proportion of youth and adults who have above basic safety skills, 15-24 years old, both sexes (%)",measure
+ictskillsafeabas_ag15t24_f,"Proportion of youth and adults who have above basic safety skills, 15-24 years old, female (%)",measure
+ictskillsafeabas_ag15t24_gpia,"Proportion of youth and adults who have above basic safety skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_ag15t24_m,"Proportion of youth and adults who have above basic safety skills, 15-24 years old, male (%)",measure
+ictskillsafeabas_ag25t74,"Proportion of youth and adults who have above basic safety skills, 25-74 years old, both sexes (%)",measure
+ictskillsafeabas_ag25t74_f,"Proportion of youth and adults who have above basic safety skills, 25-74 years old, female (%)",measure
+ictskillsafeabas_ag25t74_gpia,"Proportion of youth and adults who have above basic safety skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_ag25t74_m,"Proportion of youth and adults who have above basic safety skills, 25-74 years old, male (%)",measure
+ictskillsafeabas_ag75orover,"Proportion of youth and adults who have above basic safety skills, 75 years old or over, both sexes (%)",measure
+ictskillsafeabas_ag75orover_f,"Proportion of youth and adults who have above basic safety skills, 75 years old or over, female (%)",measure
+ictskillsafeabas_ag75orover_gpia,"Proportion of youth and adults who have above basic safety skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_ag75orover_m,"Proportion of youth and adults who have above basic safety skills, 75 years old or over, male (%)",measure
+ictskillsafeabas_agunder15y,"Proportion of youth and adults who have above basic safety skills, under 15 years old, both sexes (%)",measure
+ictskillsafeabas_agunder15y_f,"Proportion of youth and adults who have above basic safety skills, under 15 years old, female (%)",measure
+ictskillsafeabas_agunder15y_gpia,"Proportion of youth and adults who have above basic safety skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_agunder15y_m,"Proportion of youth and adults who have above basic safety skills, under 15 years old, male (%)",measure
+ictskillsafeabas_f,"Proportion of youth and adults who have above basic safety skills, female (%)",measure
+ictskillsafeabas_f_lpia,"Proportion of youth and adults who have above basic safety skills, female, adjusted location parity index (LPIA)",measure
+ictskillsafeabas_gpia,"Proportion of youth and adults who have above basic safety skills, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_lpia,"Proportion of youth and adults who have above basic safety skills, adjusted location parity index (LPIA)",measure
+ictskillsafeabas_m,"Proportion of youth and adults who have above basic safety skills, male (%)",measure
+ictskillsafeabas_m_lpia,"Proportion of youth and adults who have above basic safety skills, male, adjusted location parity index (LPIA)",measure
+ictskillsafeabas_rur,"Proportion of youth and adults who have above basic safety skills, rural, both sexes (%)",measure
+ictskillsafeabas_rur_f,"Proportion of youth and adults who have above basic safety skills, rural, female (%)",measure
+ictskillsafeabas_rur_gpia,"Proportion of youth and adults who have above basic safety skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_rur_m,"Proportion of youth and adults who have above basic safety skills, rural, male (%)",measure
+ictskillsafeabas_urb,"Proportion of youth and adults who have above basic safety skills, urban, both sexes (%)",measure
+ictskillsafeabas_urb_f,"Proportion of youth and adults who have above basic safety skills, urban, female (%)",measure
+ictskillsafeabas_urb_gpia,"Proportion of youth and adults who have above basic safety skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillsafeabas_urb_m,"Proportion of youth and adults who have above basic safety skills, urban, male (%)",measure
+ictskillsafebas,"Proportion of youth and adults who have basic safety skills, both sexes (%)",measure
+ictskillsafebas_ag15t24,"Proportion of youth and adults who have basic safety skills, 15-24 years old, both sexes (%)",measure
+ictskillsafebas_ag15t24_f,"Proportion of youth and adults who have basic safety skills, 15-24 years old, female (%)",measure
+ictskillsafebas_ag15t24_gpia,"Proportion of youth and adults who have basic safety skills, 15-24 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_ag15t24_m,"Proportion of youth and adults who have basic safety skills, 15-24 years old, male (%)",measure
+ictskillsafebas_ag25t74,"Proportion of youth and adults who have basic safety skills, 25-74 years old, both sexes (%)",measure
+ictskillsafebas_ag25t74_f,"Proportion of youth and adults who have basic safety skills, 25-74 years old, female (%)",measure
+ictskillsafebas_ag25t74_gpia,"Proportion of youth and adults who have basic safety skills, 25-74 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_ag25t74_m,"Proportion of youth and adults who have basic safety skills, 25-74 years old, male (%)",measure
+ictskillsafebas_ag75orover,"Proportion of youth and adults who have basic safety skills, 75 years old or over, both sexes (%)",measure
+ictskillsafebas_ag75orover_f,"Proportion of youth and adults who have basic safety skills, 75 years old or over, female (%)",measure
+ictskillsafebas_ag75orover_gpia,"Proportion of youth and adults who have basic safety skills, 75 years old or over, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_ag75orover_m,"Proportion of youth and adults who have basic safety skills, 75 years old or over, male (%)",measure
+ictskillsafebas_agunder15y,"Proportion of youth and adults who have basic safety skills, under 15 years old, both sexes (%)",measure
+ictskillsafebas_agunder15y_f,"Proportion of youth and adults who have basic safety skills, under 15 years old, female (%)",measure
+ictskillsafebas_agunder15y_gpia,"Proportion of youth and adults who have basic safety skills, under 15 years old, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_agunder15y_m,"Proportion of youth and adults who have basic safety skills, under 15 years old, male (%)",measure
+ictskillsafebas_f,"Proportion of youth and adults who have basic safety skills, female (%)",measure
+ictskillsafebas_f_lpia,"Proportion of youth and adults who have basic safety skills, female, adjusted location parity index (LPIA)",measure
+ictskillsafebas_gpia,"Proportion of youth and adults who have basic safety skills, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_lpia,"Proportion of youth and adults who have basic safety skills, adjusted location parity index (LPIA)",measure
+ictskillsafebas_m,"Proportion of youth and adults who have basic safety skills, male (%)",measure
+ictskillsafebas_m_lpia,"Proportion of youth and adults who have basic safety skills, male, adjusted location parity index (LPIA)",measure
+ictskillsafebas_rur,"Proportion of youth and adults who have basic safety skills, rural, both sexes (%)",measure
+ictskillsafebas_rur_f,"Proportion of youth and adults who have basic safety skills, rural, female (%)",measure
+ictskillsafebas_rur_gpia,"Proportion of youth and adults who have basic safety skills, rural, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_rur_m,"Proportion of youth and adults who have basic safety skills, rural, male (%)",measure
+ictskillsafebas_urb,"Proportion of youth and adults who have basic safety skills, urban, both sexes (%)",measure
+ictskillsafebas_urb_f,"Proportion of youth and adults who have basic safety skills, urban, female (%)",measure
+ictskillsafebas_urb_gpia,"Proportion of youth and adults who have basic safety skills, urban, adjusted gender parity index (GPIA)",measure
+ictskillsafebas_urb_m,"Proportion of youth and adults who have basic safety skills, urban, male (%)",measure
 ictskillscrty,"Proportion of youth and adults that set up effective security measures (e.g. strong passwords, log-in attempt notification) to protect devices and online accounts, both sexes (%)",measure
 ictskillscrty_ag15t24,"Proportion of youth and adults that set up effective security measures (e.g. strong passwords, log-in attempt notification) to protect devices and online accounts, 15-24 years old, both sexes (%)",measure
 ictskillscrty_ag15t24_f,"Proportion of youth and adults that set up effective security measures (e.g. strong passwords, log-in attempt notification) to protect devices and online accounts, 15-24 years old, female (%)",measure
@@ -1448,68 +1741,6 @@ ictskillsoft_urb,"Proportion of youth and adults that found, downloaded, install
 ictskillsoft_urb_f,"Proportion of youth and adults that found, downloaded, installed and configured sofware and apps, urban, female (%)",measure
 ictskillsoft_urb_gpia,"Proportion of youth and adults that found, downloaded, installed and configured sofware and apps, urban, adjusted gender parity index (GPIA)",measure
 ictskillsoft_urb_m,"Proportion of youth and adults that found, downloaded, installed and configured sofware and apps, urban, male (%)",measure
-ictskilltraf,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), both sexes (%)",measure
-ictskilltraf_ag15t24,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 15-24 years old, both sexes (%)",measure
-ictskilltraf_ag15t24_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 15-24 years old, female (%)",measure
-ictskilltraf_ag15t24_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 15-24 years old, adjusted gender parity index (GPIA)",measure
-ictskilltraf_ag15t24_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 15-24 years old, male (%)",measure
-ictskilltraf_ag25t74,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 25-74 years old, both sexes (%)",measure
-ictskilltraf_ag25t74_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 25-74 years old, female (%)",measure
-ictskilltraf_ag25t74_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 25-74 years old, adjusted gender parity index (GPIA)",measure
-ictskilltraf_ag25t74_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 25-74 years old, male (%)",measure
-ictskilltraf_ag75orover,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 75 years old or over, both sexes (%)",measure
-ictskilltraf_ag75orover_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 75 years old or over, female (%)",measure
-ictskilltraf_ag75orover_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 75 years old or over, adjusted gender parity index (GPIA)",measure
-ictskilltraf_ag75orover_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), 75 years old or over, male (%)",measure
-ictskilltraf_agunder15y,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), under 15 years old, both sexes (%)",measure
-ictskilltraf_agunder15y_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), under 15 years old, female (%)",measure
-ictskilltraf_agunder15y_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), under 15 years old, adjusted gender parity index (GPIA)",measure
-ictskilltraf_agunder15y_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), under 15 years old, male (%)",measure
-ictskilltraf_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), female (%)",measure
-ictskilltraf_f_lpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), female, adjusted location parity index (LPIA)",measure
-ictskilltraf_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), adjusted gender parity index (GPIA)",measure
-ictskilltraf_lpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), adjusted location parity index (LPIA)",measure
-ictskilltraf_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), male (%)",measure
-ictskilltraf_m_lpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), male, adjusted location parity index (LPIA)",measure
-ictskilltraf_rur,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), rural, both sexes (%)",measure
-ictskilltraf_rur_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), rural, female (%)",measure
-ictskilltraf_rur_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), rural, adjusted gender parity index (GPIA)",measure
-ictskilltraf_rur_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), rural, male (%)",measure
-ictskilltraf_urb,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), urban, both sexes (%)",measure
-ictskilltraf_urb_f,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), urban, female (%)",measure
-ictskilltraf_urb_gpia,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), urban, adjusted gender parity index (GPIA)",measure
-ictskilltraf_urb_m,"Proportion of youth and adults that transferred files or applications between devices (including via cloud-storage), urban, male (%)",measure
-ictskillupld,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, both sexes (%)",measure
-ictskillupld_ag15t24,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 15-24 years old, both sexes (%)",measure
-ictskillupld_ag15t24_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 15-24 years old, female (%)",measure
-ictskillupld_ag15t24_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 15-24 years old, adjusted gender parity index (GPIA)",measure
-ictskillupld_ag15t24_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 15-24 years old, male (%)",measure
-ictskillupld_ag25t74,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 25-74 years old, both sexes (%)",measure
-ictskillupld_ag25t74_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 25-74 years old, female (%)",measure
-ictskillupld_ag25t74_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 25-74 years old, adjusted gender parity index (GPIA)",measure
-ictskillupld_ag25t74_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 25-74 years old, male (%)",measure
-ictskillupld_ag75orover,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 75 years old or over, both sexes (%)",measure
-ictskillupld_ag75orover_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 75 years old or over, female (%)",measure
-ictskillupld_ag75orover_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 75 years old or over, adjusted gender parity index (GPIA)",measure
-ictskillupld_ag75orover_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, 75 years old or over, male (%)",measure
-ictskillupld_agunder15y,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, under 15 years old, both sexes (%)",measure
-ictskillupld_agunder15y_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, under 15 years old, female (%)",measure
-ictskillupld_agunder15y_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, under 15 years old, adjusted gender parity index (GPIA)",measure
-ictskillupld_agunder15y_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, under 15 years old, male (%)",measure
-ictskillupld_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, female (%)",measure
-ictskillupld_f_lpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, female, adjusted location parity index (LPIA)",measure
-ictskillupld_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, adjusted gender parity index (GPIA)",measure
-ictskillupld_lpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, adjusted location parity index (LPIA)",measure
-ictskillupld_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, male (%)",measure
-ictskillupld_m_lpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, male, adjusted location parity index (LPIA)",measure
-ictskillupld_rur,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, rural, both sexes (%)",measure
-ictskillupld_rur_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, rural, female (%)",measure
-ictskillupld_rur_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, rural, adjusted gender parity index (GPIA)",measure
-ictskillupld_rur_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, rural, male (%)",measure
-ictskillupld_urb,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, urban, both sexes (%)",measure
-ictskillupld_urb_f,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, urban, female (%)",measure
-ictskillupld_urb_gpia,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, urban, adjusted gender parity index (GPIA)",measure
-ictskillupld_urb_m,"Proportion of youth and adults that uploaded self/user-created content to a website to be shared, urban, male (%)",measure
 ictskillvoip,"Proportion of youth and adults that made calls (telephoning over the Internet/VoIP, using Skype, Whatsapp, Viber, iTalk, etc.; includes video calls via webcam), both sexes (%)",measure
 ictskillvoip_ag15t24,"Proportion of youth and adults that made calls (telephoning over the Internet/VoIP, using Skype, Whatsapp, Viber, iTalk, etc.; includes video calls via webcam), 15-24 years old, both sexes (%)",measure
 ictskillvoip_ag15t24_f,"Proportion of youth and adults that made calls (telephoning over the Internet/VoIP, using Skype, Whatsapp, Viber, iTalk, etc.; includes video calls via webcam), 15-24 years old, female (%)",measure
@@ -1575,12 +1806,23 @@ ictskillvrfy_urb_m,"Proportion of youth and adults who have verified the reliabi
 lr_ag15t24,"Youth literacy rate, population 15-24 years, both sexes (%)",measure
 lr_ag15t24_f,"Youth literacy rate, population 15-24 years, female (%)",measure
 lr_ag15t24_f_lpia,"Youth literacy rate, population 15-24 years, female, adjusted location parity index (LPIA)",measure
+lr_ag15t24_f_npia,"Youth literacy rate, population 15-24 years, female, adjusted native parity index (NPIA)",measure
 lr_ag15t24_f_wpia,"Youth literacy rate, population 15-24 years, female, adjusted wealth parity index (WPIA)",measure
 lr_ag15t24_gpia,"Youth literacy rate, population 15-24 years, adjusted gender parity index (GPIA)",measure
 lr_ag15t24_lpia,"Youth literacy rate, population 15-24 years, adjusted location parity index (LPIA)",measure
 lr_ag15t24_m,"Youth literacy rate, population 15-24 years, male (%)",measure
 lr_ag15t24_m_lpia,"Youth literacy rate, population 15-24 years, male, adjusted location parity index (LPIA)",measure
+lr_ag15t24_m_npia,"Youth literacy rate, population 15-24 years, male, adjusted native parity index (NPIA)",measure
 lr_ag15t24_m_wpia,"Youth literacy rate, population 15-24 years, male, adjusted wealth parity index (WPIA)",measure
+lr_ag15t24_native,"Youth literacy rate, population 15-24 years, non-immigrant background, both sexes (%)",measure
+lr_ag15t24_native_f,"Youth literacy rate, population 15-24 years, non-immigrant background, female (%)",measure
+lr_ag15t24_native_gpia,"Youth literacy rate, population 15-24 years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag15t24_native_m,"Youth literacy rate, population 15-24 years, non-immigrant background, male (%)",measure
+lr_ag15t24_nonnative,"Youth literacy rate, population 15-24 years, immigrant background, both sexes (%)",measure
+lr_ag15t24_nonnative_f,"Youth literacy rate, population 15-24 years, immigrant background, female (%)",measure
+lr_ag15t24_nonnative_gpia,"Youth literacy rate, population 15-24 years, immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag15t24_nonnative_m,"Youth literacy rate, population 15-24 years, immigrant background, male (%)",measure
+lr_ag15t24_npia,"Youth literacy rate, population 15-24 years, adjusted native parity index (NPIA)",measure
 lr_ag15t24_q1,"Youth literacy rate, population 15-24 years, poorest quintile, both sexes (%)",measure
 lr_ag15t24_q1_f,"Youth literacy rate, population 15-24 years, poorest quintile, female (%)",measure
 lr_ag15t24_q1_gpia,"Youth literacy rate, population 15-24 years, poorest quintile, adjusted gender parity index (GPIA)",measure
@@ -1601,12 +1843,23 @@ lr_ag15t24_wpia,"Youth literacy rate, population 15-24 years, adjusted wealth pa
 lr_ag15t99,"Adult literacy rate, population 15+ years, both sexes (%)",measure
 lr_ag15t99_f,"Adult literacy rate, population 15+ years, female (%)",measure
 lr_ag15t99_f_lpia,"Adult literacy rate, population 15+ years, female, adjusted location parity index (LPIA)",measure
+lr_ag15t99_f_npia,"Adult literacy rate, population 15+ years, female, adjusted native parity index (NPIA)",measure
 lr_ag15t99_f_wpia,"Adult literacy rate, population 15+ years, female, adjusted wealth parity index (WPIA)",measure
 lr_ag15t99_gpia,"Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)",measure
 lr_ag15t99_lpia,"Adult literacy rate, population 15+ years, adjusted location parity index (LPIA)",measure
 lr_ag15t99_m,"Adult literacy rate, population 15+ years, male (%)",measure
 lr_ag15t99_m_lpia,"Adult literacy rate, population 15+ years, male, adjusted location parity index (LPIA)",measure
+lr_ag15t99_m_npia,"Adult literacy rate, population 15+ years, male, adjusted native parity index (NPIA)",measure
 lr_ag15t99_m_wpia,"Adult literacy rate, population 15+ years, male, adjusted wealth parity index (WPIA)",measure
+lr_ag15t99_native,"Adult literacy rate, population 15+ years, non-immigrant background, both sexes (%)",measure
+lr_ag15t99_native_f,"Adult literacy rate, population 15+ years, non-immigrant background, female (%)",measure
+lr_ag15t99_native_gpia,"Adult literacy rate, population 15+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag15t99_native_m,"Adult literacy rate, population 15+ years, non-immigrant background, male (%)",measure
+lr_ag15t99_nonnative,"Adult literacy rate, population 15+ years, immigrant background, both sexes (%)",measure
+lr_ag15t99_nonnative_f,"Adult literacy rate, population 15+ years, immigrant background, female (%)",measure
+lr_ag15t99_nonnative_gpia,"Adult literacy rate, population 15+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag15t99_nonnative_m,"Adult literacy rate, population 15+ years, immigrant background, male (%)",measure
+lr_ag15t99_npia,"Adult literacy rate, population 15+ years, adjusted native parity index (NPIA)",measure
 lr_ag15t99_q1,"Adult literacy rate, population 15+ years, poorest quintile, both sexes (%)",measure
 lr_ag15t99_q1_f,"Adult literacy rate, population 15+ years, poorest quintile, female (%)",measure
 lr_ag15t99_q1_gpia,"Adult literacy rate, population 15+ years, poorest quintile, adjusted gender parity index (GPIA)",measure
@@ -1627,12 +1880,23 @@ lr_ag15t99_wpia,"Adult literacy rate, population 15+ years, adjusted wealth pari
 lr_ag25t64,"Literacy rate, population 25-64 years, both sexes (%)",measure
 lr_ag25t64_f,"Literacy rate, population 25-64 years, female (%)",measure
 lr_ag25t64_f_lpia,"Literacy rate, population 25-64 years, female, adjusted location parity index (LPIA)",measure
+lr_ag25t64_f_npia,"Literacy rate, population 25-64 years, female, adjusted native parity index (NPIA)",measure
 lr_ag25t64_f_wpia,"Literacy rate, population 25-64 years, female, adjusted wealth parity index (WPIA)",measure
 lr_ag25t64_gpia,"Literacy rate, population 25-64 years, adjusted gender parity index (GPIA)",measure
 lr_ag25t64_lpia,"Literacy rate, population 25-64 years, adjusted location parity index (LPIA)",measure
 lr_ag25t64_m,"Literacy rate, population 25-64 years, male (%)",measure
 lr_ag25t64_m_lpia,"Literacy rate, population 25-64 years, male, adjusted location parity index (LPIA)",measure
+lr_ag25t64_m_npia,"Literacy rate, population 25-64 years, male, adjusted native parity index (NPIA)",measure
 lr_ag25t64_m_wpia,"Literacy rate, population 25-64 years, male, adjusted wealth parity index (WPIA)",measure
+lr_ag25t64_native,"Literacy rate, population 25-64 years, non-immigrant background, both sexes (%)",measure
+lr_ag25t64_native_f,"Literacy rate, population 25-64 years, non-immigrant background, female (%)",measure
+lr_ag25t64_native_gpia,"Literacy rate, population 25-64 years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag25t64_native_m,"Literacy rate, population 25-64 years, non-immigrant background, male (%)",measure
+lr_ag25t64_nonnative,"Literacy rate, population 25-64 years, immigrant background, both sexes (%)",measure
+lr_ag25t64_nonnative_f,"Literacy rate, population 25-64 years, immigrant background, female (%)",measure
+lr_ag25t64_nonnative_gpia,"Literacy rate, population 25-64 years, immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag25t64_nonnative_m,"Literacy rate, population 25-64 years, immigrant background, male (%)",measure
+lr_ag25t64_npia,"Literacy rate, population 25-64 years, adjusted native parity index (NPIA)",measure
 lr_ag25t64_q1,"Literacy rate, population 25-64 years, poorest quintile, both sexes (%)",measure
 lr_ag25t64_q1_f,"Literacy rate, population 25-64 years, poorest quintile, female (%)",measure
 lr_ag25t64_q1_gpia,"Literacy rate, population 25-64 years, poorest quintile, adjusted gender parity index (GPIA)",measure
@@ -1653,12 +1917,23 @@ lr_ag25t64_wpia,"Literacy rate, population 25-64 years, adjusted wealth parity i
 lr_ag65t99,"Elderly literacy rate, population 65+ years, both sexes (%)",measure
 lr_ag65t99_f,"Elderly literacy rate, population 65+ years, female (%)",measure
 lr_ag65t99_f_lpia,"Elderly literacy rate, population 65+ years, female, adjusted location parity index (LPIA)",measure
+lr_ag65t99_f_npia,"Elderly literacy rate, population 65+ years, female, adjusted native parity index (NPIA)",measure
 lr_ag65t99_f_wpia,"Elderly literacy rate, population 65+ years, female, adjusted wealth parity index (WPIA)",measure
 lr_ag65t99_gpia,"Elderly literacy rate, population 65+ years, adjusted gender parity index (GPIA)",measure
 lr_ag65t99_lpia,"Elderly literacy rate, population 65+ years, adjusted location parity index (LPIA)",measure
 lr_ag65t99_m,"Elderly literacy rate, population 65+ years, male (%)",measure
 lr_ag65t99_m_lpia,"Elderly literacy rate, population 65+ years, male, adjusted location parity index (LPIA)",measure
+lr_ag65t99_m_npia,"Elderly literacy rate, population 65+ years, male, adjusted native parity index (NPIA)",measure
 lr_ag65t99_m_wpia,"Elderly literacy rate, population 65+ years, male, adjusted wealth parity index (WPIA)",measure
+lr_ag65t99_native,"Elderly literacy rate, population 65+ years, non-immigrant background, both sexes (%)",measure
+lr_ag65t99_native_f,"Elderly literacy rate, population 65+ years, non-immigrant background, female (%)",measure
+lr_ag65t99_native_gpia,"Elderly literacy rate, population 65+ years, non-immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag65t99_native_m,"Elderly literacy rate, population 65+ years, non-immigrant background, male (%)",measure
+lr_ag65t99_nonnative,"Elderly literacy rate, population 65+ years, immigrant background, both sexes (%)",measure
+lr_ag65t99_nonnative_f,"Elderly literacy rate, population 65+ years, immigrant background, female (%)",measure
+lr_ag65t99_nonnative_gpia,"Elderly literacy rate, population 65+ years, immigrant background, adjusted gender parity index (GPIA)",measure
+lr_ag65t99_nonnative_m,"Elderly literacy rate, population 65+ years, immigrant background, male (%)",measure
+lr_ag65t99_npia,"Elderly literacy rate, population 65+ years, adjusted native parity index (NPIA)",measure
 lr_ag65t99_q1,"Elderly literacy rate, population 65+ years, poorest quintile, both sexes (%)",measure
 lr_ag65t99_q1_f,"Elderly literacy rate, population 65+ years, poorest quintile, female (%)",measure
 lr_ag65t99_q1_gpia,"Elderly literacy rate, population 65+ years, poorest quintile, adjusted gender parity index (GPIA)",measure
@@ -1708,7 +1983,6 @@ math_g2_npia,"Proportion of students in Grade 2 achieving at least a minimum pro
 math_g2_rural,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in mathematics, rural areas, both sexes (%)",measure
 math_g2_urban,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in mathematics, urban areas, both sexes (%)",measure
 math_g2_wpia,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in mathematics, adjusted wealth parity index (WPIA)",measure
-math_g2t3,"Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in mathematics, both sexes (%)",measure
 math_g3,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in mathematics, both sexes (%)",measure
 math_g3_f,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in mathematics, female (%)",measure
 math_g3_gpia,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in mathematics, adjusted gender parity index (GPIA)",measure
@@ -2102,7 +2376,6 @@ read_g2_npia,"Proportion of students in Grade 2 achieving at least a minimum pro
 read_g2_rural,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in reading, rural areas, both sexes (%)",measure
 read_g2_urban,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in reading, urban areas, both sexes (%)",measure
 read_g2_wpia,"Proportion of students in Grade 2 achieving at least a minimum proficiency level in reading, adjusted wealth parity index (WPIA)",measure
-read_g2t3,"Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in reading, both sexes (%)",measure
 read_g3,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in reading, both sexes (%)",measure
 read_g3_f,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in reading, female (%)",measure
 read_g3_gpia,"Proportion of students in Grade 3 achieving at least a minimum proficiency level in reading, adjusted gender parity index (GPIA)",measure
